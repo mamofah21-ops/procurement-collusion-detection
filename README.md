@@ -17,17 +17,21 @@ The project starts on a synthetic dataset where the collusion is planted on purp
 | File | Rows | Description |
 |---|---|---|
 | `data/companies.csv` | 500 | Company profile, registration date, beneficial owner, sector, known risk flag |
-| `data/bids.csv` | 5,000 | Bids across 1,240 contracts: amount, outcome, timestamp, contract value |
+| `data/bids.csv` | 5,000 | Bids across 1,252 contracts: amount, outcome, timestamp, contract value |
 | `data/ground_truth_companies.csv` | 500 | Cartel membership. **Used for evaluation only** |
-| `data/ground_truth_contracts.csv` | 1,240 | Which contracts were rigged. **Used for evaluation only** |
+| `data/ground_truth_contracts.csv` | 1,252 | Which contracts were rigged. **Used for evaluation only** |
 
-The generator (`src/generate_procurement_data.py`, seed 42) plants six cartels. Members share a beneficial owner, were registered within weeks of each other, bid together on every target contract with near-identical prices, submit within minutes of each other and rotate the win.
+The generator (`src/generate_procurement_data.py`, seed 42) plants six cartels of 2 to 6 firms. Members share a beneficial owner, were registered within weeks of each other, bid together on every target contract with near-identical prices, submit within minutes of each other and rotate the win.
 
 To keep the task honest, it also includes:
 
 - **Partial labels.** Only some cartel members carry `risk_flag = 1`, and a few innocent firms are wrongly flagged.
-- **Decoys.** Twelve legitimate owners hold two firms each that never collude, so shared ownership alone is not enough.
+- **Decoys.** Twelve legitimate owners hold between two and six firms each that never collude. Some stay in one sector and some registered their firms close together, so neither shared ownership, group size, sector nor registration timing can separate cartels on its own.
 - **Mixed behaviour.** Cartel members also bid normally on ordinary tenders.
+
+### A note on the data design
+
+The first version of the generator had a flaw: every cartel had three or more members and every honest owner had exactly two firms, so the number of firms under one owner separated the two groups perfectly. Any model would have looked brilliant for the wrong reason. Version 2 overlaps the group sizes so the bidding behaviour has to do the real work.
 
 ## Project stages
 
