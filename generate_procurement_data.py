@@ -30,6 +30,9 @@ Realism / noise so the problem is not trivial:
 
 v2 (Nov 2026): v1 used cartels of 3 to 6 and honest owners with exactly two firms,
 which let owner group size separate the classes perfectly. Fixed by overlapping sizes.
+v3 (Nov 2026): cross-sector bidding was meant to be 10% but rounding made it almost
+zero, leaving whole sectors disconnected. Each bidder is now drawn cross-sector
+independently, and validation checks the network is connected.
 """
 
 from __future__ import annotations
@@ -49,6 +52,7 @@ N_BIDS = 5000
 CARTEL_SIZES = [2, 3, 3, 4, 5, 6]   # members per cartel (one entry per cartel)
 N_CARTELS = len(CARTEL_SIZES)
 CONTRACTS_PER_CARTEL = (10, 18)     # rigged contracts per cartel (inclusive)
+CROSS_SECTOR_RATE = 0.10           # chance a normal bidder comes from another sector
 LABEL_RATE_IN_CARTELS = 0.5         # share of cartel members already known (risk_flag = 1)
 N_FLAGGED_OUTSIDERS = 3             # innocent firms wrongly flagged (label noise)
 LEGIT_GROUP_SIZES = [2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6]   # firms per honest multi-firm owner
@@ -255,8 +259,9 @@ def normal_bids(companies: pd.DataFrame, n_bids_needed: int, start_idx: int) -> 
                           "sector": sector, "is_rigged": 0, "cartel_id": pd.NA})
 
         same_sector = companies.loc[companies["sector"] == sector, "company_id"].to_numpy()
-        # 90% of bidders from the contract's sector, the rest from anywhere
-        n_same = min(len(same_sector), int(np.ceil(n_bidders * 0.9)))
+        # each bidder independently comes from outside the sector with probability 10%
+        n_cross = int(rng.binomial(n_bidders, CROSS_SECTOR_RATE))
+        n_same = min(len(same_sector), n_bidders - n_cross)
         chosen = list(rng.choice(same_sector, size=n_same, replace=False))
         others = companies.loc[~companies["company_id"].isin(chosen), "company_id"].to_numpy()
         chosen += list(rng.choice(others, size=n_bidders - n_same, replace=False))
@@ -308,6 +313,16 @@ def validate(companies: pd.DataFrame, bids: pd.DataFrame, gt_contracts: pd.DataF
     assert not bids.duplicated(["contract_id", "company_id"]).any(), "company bid twice on a contract"
     assert (bids.groupby("contract_id")["winning_status"].sum() == 1).all(), "need one winner per contract"
     assert (bids["bid_amount"] > 0).all()
+
+    import networkx as nx  # only needed for this check
+    g = nx.Graph()
+    g.add_edges_from(zip(bids["company_id"], bids["contract_id"]))
+    g.add_edges_from(zip(companies["company_id"], companies["ultimate_beneficial_owner_id"]))
+    n_comp = nx.number_connected_components(g)
+    assert n_comp == 1, f"network should be connected, found {n_comp} components"
+    cross = bids.merge(companies[["company_id", "sector"]], on="company_id") \
+                .merge(gt_contracts[["contract_id", "sector"]], on="contract_id", suffixes=("", "_contract"))
+    print(f"  cross-sector bids: {(cross['sector'] != cross['sector_contract']).mean():.1%}")
 
     rigged = set(gt_contracts.loc[gt_contracts["is_rigged"] == 1, "contract_id"])
     cv = bids.groupby("contract_id")["bid_amount"].agg(lambda s: s.std() / s.mean() if len(s) > 1 else np.nan)

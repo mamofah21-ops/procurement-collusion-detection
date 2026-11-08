@@ -1,501 +1,501 @@
 company_id,company_name,registration_date,ultimate_beneficial_owner_id,sector,risk_flag
-CMP0001,Yawcrest Group,2014-04-03,UBO0001,Construction,0
-CMP0002,Bonastone Holdings,2007-09-21,UBO0002,Construction,0
-CMP0003,Dansobuild Holdings,2008-10-29,UBO0003,Agriculture,0
-CMP0004,Ashanbuild Company Ltd,2005-11-15,UBO0004,ICT,0
-CMP0005,Voltastar Enterprise,2006-12-27,UBO0005,Consultancy,0
-CMP0006,Sekebridge Consult,2007-10-27,UBO0006,Education,0
-CMP0007,Kwaprime Ventures,2004-02-29,UBO0007,Construction,0
-CMP0008,Nanawave Company Ltd,2011-11-18,UBO0008,Construction,0
-CMP0009,Bencrest Group,2003-12-16,UBO0009,Construction,0
-CMP0010,Dansotech Ventures,2012-04-28,UBO0010,Consultancy,0
-CMP0011,Sekebridge Services,2014-04-11,UBO0011,Construction,0
-CMP0012,Benlink Company Ltd,2018-04-10,UBO0012,Education,0
-CMP0013,Asaunity Enterprise,2002-04-05,UBO0013,Consultancy,0
-CMP0014,Kwagold Consult,2014-06-07,UBO0014,Consultancy,0
-CMP0015,Kofiunity Services,2001-08-19,UBO0015,Health Supplies,0
-CMP0016,Kofipeak Ventures,2006-05-29,UBO0016,Construction,0
-CMP0017,Dansocrest Holdings,2003-05-08,UBO0017,Construction,0
-CMP0018,Sekebridge Company Ltd,2003-01-31,UBO0018,Construction,0
-CMP0019,Amawave Ltd,2003-05-01,UBO0019,Construction,0
-CMP0020,Ashanbuild Ventures,2000-10-31,UBO0020,Education,0
-CMP0021,Kwaprime Holdings,2006-12-14,UBO0021,Transport,0
-CMP0022,Yawbuild Services,2001-02-28,UBO0022,Education,0
-CMP0023,Oseilink Services,2007-07-28,UBO0023,Energy,0
-CMP0024,Yawcore Consult,2013-04-13,UBO0006,Construction,0
-CMP0025,Bentech Consult,2018-10-25,UBO0025,Agriculture,0
-CMP0026,Sekeunity Group,2016-03-20,UBO0026,Education,0
-CMP0027,Amapeak Services,2002-08-10,UBO0027,Transport,0
-CMP0028,Benunity Holdings,2018-10-06,UBO0028,Consultancy,0
-CMP0029,Benroyal Holdings,2015-04-14,UBO0029,Health Supplies,0
-CMP0030,Yawprime Ltd,2003-05-31,UBO0030,Construction,0
-CMP0031,Owuwave Company Ltd,2008-07-10,UBO0031,Health Supplies,0
-CMP0032,Abenacrest Company Ltd,2017-06-09,UBO0032,ICT,0
-CMP0033,Akcore Holdings,2007-06-19,UBO0033,Consultancy,0
-CMP0034,Aktech Ventures,2003-06-28,UBO0034,ICT,0
-CMP0035,Asalink Ventures,2016-08-16,UBO0035,Agriculture,0
-CMP0036,Bonaprime Company Ltd,2018-02-07,UBO0036,Education,0
-CMP0037,Sekeroyal Enterprise,2018-07-14,UBO0037,Construction,0
-CMP0038,Aklink Company Ltd,2018-02-26,UBO0038,Health Supplies,0
-CMP0039,Ashanlink Holdings,2016-07-31,UBO0039,Energy,0
-CMP0040,Benstone Holdings,2017-05-03,UBO0040,Energy,1
-CMP0041,Esistone Holdings,2003-08-27,UBO0041,ICT,0
-CMP0042,Bristone Consult,2011-09-22,UBO0042,Health Supplies,0
-CMP0043,Oseifield Holdings,2004-03-12,UBO0043,Agriculture,0
-CMP0044,Kwacrest Holdings,2008-12-27,UBO0044,Construction,0
-CMP0045,Briroyal Consult,2012-06-18,UBO0006,Consultancy,0
-CMP0046,Abenaprime Group,2015-01-20,UBO0046,Construction,0
-CMP0047,Bristone Enterprise,2005-06-28,UBO0047,Construction,0
-CMP0048,Abenaprime Consult,2004-10-14,UBO0048,ICT,0
-CMP0049,Nanabridge Holdings,2013-12-16,UBO0049,Education,0
-CMP0050,Bonalink Holdings,2000-02-14,UBO0050,Education,0
-CMP0051,Kwabridge Services,2010-10-05,UBO0051,ICT,0
-CMP0052,Dansoroyal Group,2014-03-03,UBO0052,Consultancy,0
-CMP0053,Ashanroyal Ltd,2010-06-19,UBO0053,ICT,0
-CMP0054,Sekebridge Ventures,2007-04-18,UBO0054,ICT,0
-CMP0055,Esiunity Group,2015-09-28,UBO0055,ICT,0
-CMP0056,Ashanpeak Holdings,2007-01-18,UBO0056,Construction,0
-CMP0057,Bonabuild Services,2013-07-01,UBO0057,Education,0
-CMP0058,Benstone Enterprise,2008-10-25,UBO0058,Health Supplies,0
-CMP0059,Adelink Holdings,2000-07-03,UBO0059,Energy,0
-CMP0060,Britech Services,2010-01-29,UBO0060,Construction,0
-CMP0061,Aklink Ventures,2000-12-09,UBO0061,Consultancy,0
-CMP0062,Voltalink Ltd,2017-09-07,UBO0062,ICT,0
-CMP0063,Adestone Services,2011-06-06,UBO0063,Transport,0
-CMP0064,Abenafield Ventures,2007-01-25,UBO0064,ICT,0
-CMP0065,Oseibridge Holdings,2009-03-27,UBO0065,Construction,0
-CMP0066,Dansobridge Company Ltd,2011-10-06,UBO0066,Transport,0
-CMP0067,Aktech Enterprise,2004-12-10,UBO0067,Energy,0
-CMP0068,Esilink Company Ltd,2005-06-24,UBO0068,Agriculture,0
-CMP0069,Asaroyal Ltd,2007-12-15,UBO0069,ICT,0
-CMP0070,Oseiroyal Services,2017-03-15,UBO0040,Energy,0
-CMP0071,Benwave Group,2014-05-26,UBO0071,Transport,0
-CMP0072,Sekecrest Company Ltd,2001-12-21,UBO0072,Energy,0
-CMP0073,Asacore Enterprise,2015-09-14,UBO0073,Health Supplies,0
-CMP0074,Akstone Company Ltd,2015-03-15,UBO0074,Energy,1
-CMP0075,Brilink Holdings,2015-03-07,UBO0074,Energy,0
-CMP0076,Bristar Enterprise,2002-12-30,UBO0076,Consultancy,0
-CMP0077,Abenaroyal Group,2007-04-28,UBO0077,ICT,0
-CMP0078,Ashancore Ventures,2014-05-03,UBO0078,ICT,0
-CMP0079,Asabridge Holdings,2005-02-21,UBO0079,Agriculture,0
-CMP0080,Akbuild Services,2002-07-06,UBO0080,Education,0
-CMP0081,Akunity Enterprise,2009-11-30,UBO0081,Agriculture,0
-CMP0082,Kwabuild Group,2003-02-01,UBO0082,ICT,0
-CMP0083,Oseistone Group,2005-12-24,UBO0083,Construction,0
-CMP0084,Dansounity Enterprise,2008-07-22,UBO0084,Agriculture,0
-CMP0085,Tanocrest Company Ltd,2010-09-19,UBO0085,Construction,0
-CMP0086,Briprime Ventures,2012-02-23,UBO0086,Construction,0
-CMP0087,Ashanfield Consult,2012-11-08,UBO0087,Energy,0
-CMP0088,Voltabridge Ltd,2016-01-15,UBO0088,Agriculture,0
-CMP0089,Owuunity Company Ltd,2001-04-03,UBO0089,Transport,0
-CMP0090,Asacore Ventures,2006-11-19,UBO0090,Health Supplies,0
-CMP0091,Kwawave Enterprise,2000-01-08,UBO0091,Construction,0
-CMP0092,Kwacrest Ltd,2000-03-06,UBO0092,Consultancy,0
-CMP0093,Tanoroyal Company Ltd,2004-01-12,UBO0093,Construction,0
-CMP0094,Oseipeak Company Ltd,2011-05-13,UBO0094,Construction,0
-CMP0095,Oseistar Enterprise,2016-12-29,UBO0095,Health Supplies,0
-CMP0096,Kwabuild Holdings,2014-09-11,UBO0096,Education,0
-CMP0097,Dansogold Consult,2012-04-11,UBO0097,Transport,0
-CMP0098,Abenafield Group,2014-10-13,UBO0098,Agriculture,0
-CMP0099,Nanaprime Enterprise,2003-04-08,UBO0099,Energy,0
-CMP0100,Voltabuild Holdings,2015-12-15,UBO0100,Construction,0
-CMP0101,Voltaunity Holdings,2016-11-29,UBO0101,Health Supplies,0
-CMP0102,Abenacore Services,2001-10-21,UBO0102,ICT,0
-CMP0103,Bripeak Company Ltd,2008-12-05,UBO0103,Construction,0
-CMP0104,Brilink Ltd,2012-04-18,UBO0104,Health Supplies,0
-CMP0105,Voltaroyal Ventures,2009-01-16,UBO0105,Health Supplies,0
-CMP0106,Adepeak Holdings,2015-12-20,UBO0106,Construction,0
-CMP0107,Yawwave Holdings,2017-10-09,UBO0107,Education,0
-CMP0108,Asafield Services,2009-01-06,UBO0108,Energy,0
-CMP0109,Sekegold Services,2001-02-16,UBO0109,Construction,0
-CMP0110,Esiwave Services,2006-06-17,UBO0110,ICT,0
-CMP0111,Akroyal Company Ltd,2004-02-02,UBO0111,Agriculture,0
-CMP0112,Kofistone Company Ltd,2009-01-02,UBO0112,Agriculture,0
-CMP0113,Abenabuild Group,2011-02-16,UBO0113,Agriculture,0
-CMP0114,Oseistar Group,2008-10-23,UBO0114,ICT,0
-CMP0115,Yawroyal Services,2003-09-18,UBO0115,Transport,0
-CMP0116,Sekeunity Holdings,2005-09-20,UBO0116,Health Supplies,0
-CMP0117,Asalink Enterprise,2012-11-28,UBO0117,ICT,0
-CMP0118,Tanowave Group,2000-07-06,UBO0118,Construction,0
-CMP0119,Esifield Company Ltd,2004-01-25,UBO0119,ICT,0
-CMP0120,Kwatech Consult,2016-12-13,UBO0120,ICT,0
-CMP0121,Voltacrest Enterprise,2001-11-19,UBO0121,Health Supplies,0
-CMP0122,Sekewave Holdings,2007-11-17,UBO0122,Agriculture,0
-CMP0123,Oseibridge Group,2003-12-07,UBO0123,Health Supplies,0
-CMP0124,Owufield Ventures,2001-12-27,UBO0124,Health Supplies,0
-CMP0125,Kwafield Enterprise,2008-01-12,UBO0125,Construction,0
-CMP0126,Nanabuild Group,2009-11-27,UBO0126,ICT,0
-CMP0127,Bonabridge Ventures,2003-05-07,UBO0127,Health Supplies,0
-CMP0128,Tanofield Group,2001-06-23,UBO0128,ICT,1
-CMP0129,Oseicore Ventures,2002-07-23,UBO0129,Health Supplies,0
-CMP0130,Bengold Consult,2012-05-18,UBO0130,Agriculture,0
-CMP0131,Oseibuild Company Ltd,2016-05-05,UBO0131,Consultancy,0
-CMP0132,Briunity Ventures,2003-06-05,UBO0132,ICT,0
-CMP0133,Owugold Enterprise,2006-02-01,UBO0133,Energy,0
-CMP0134,Akfield Enterprise,2006-07-13,UBO0134,Transport,0
-CMP0135,Tanostar Ltd,2006-11-08,UBO0135,Consultancy,0
-CMP0136,Ashantech Enterprise,2004-08-22,UBO0136,Education,0
-CMP0137,Benprime Holdings,2001-01-18,UBO0137,Transport,0
-CMP0138,Akprime Ltd,2009-12-23,UBO0138,Transport,0
-CMP0139,Sekeroyal Holdings,2006-10-15,UBO0139,Agriculture,0
-CMP0140,Aktech Ltd,2006-07-02,UBO0140,ICT,0
-CMP0141,Oseilink Company Ltd,2005-01-11,UBO0141,Construction,0
-CMP0142,Nanabuild Holdings,2017-08-27,UBO0071,Construction,0
-CMP0143,Adelink Company Ltd,2011-08-07,UBO0143,ICT,0
-CMP0144,Amacrest Holdings,2007-12-15,UBO0144,ICT,0
-CMP0145,Amastone Ltd,2003-11-26,UBO0145,ICT,0
-CMP0146,Tanostone Consult,2015-03-21,UBO0146,Education,0
-CMP0147,Voltatech Group,2016-11-16,UBO0147,Education,0
-CMP0148,Esiwave Consult,2000-08-12,UBO0148,Transport,0
-CMP0149,Tanowave Services,2017-08-29,UBO0149,Construction,0
-CMP0150,Abenafield Consult,2013-04-15,UBO0150,Health Supplies,0
-CMP0151,Bonatech Enterprise,2001-11-23,UBO0151,Agriculture,0
-CMP0152,Kwabridge Group,2014-04-23,UBO0152,Transport,0
-CMP0153,Dansounity Consult,2002-01-15,UBO0153,Consultancy,0
-CMP0154,Sekegold Holdings,2000-12-18,UBO0154,Transport,0
-CMP0155,Owufield Company Ltd,2002-03-11,UBO0155,Transport,0
-CMP0156,Yawfield Ventures,2008-09-25,UBO0156,Health Supplies,0
-CMP0157,Esilink Holdings,2008-01-20,UBO0002,ICT,0
-CMP0158,Kofilink Ltd,2007-09-27,UBO0158,Health Supplies,0
-CMP0159,Voltaprime Consult,2015-11-18,UBO0159,Education,0
-CMP0160,Dansoprime Group,2003-10-14,UBO0160,Consultancy,0
-CMP0161,Amacore Consult,2016-03-11,UBO0161,Health Supplies,0
-CMP0162,Kwastone Ltd,2006-08-20,UBO0162,Education,0
-CMP0163,Voltatech Enterprise,2014-04-30,UBO0163,Health Supplies,0
-CMP0164,Esicore Services,2001-12-18,UBO0164,Construction,0
+CMP0001,Abenatech Company Ltd,2014-04-03,UBO0001,Construction,0
+CMP0002,Tanoroyal Company Ltd,2007-09-21,UBO0002,Construction,0
+CMP0003,Benfield Enterprise,2008-10-29,UBO0003,Agriculture,0
+CMP0004,Tanoroyal Group,2005-11-15,UBO0004,ICT,0
+CMP0005,Bonacrest Services,2006-12-27,UBO0005,Consultancy,0
+CMP0006,Esilink Holdings,2007-10-27,UBO0006,Education,0
+CMP0007,Esistone Services,2004-02-29,UBO0007,Construction,0
+CMP0008,Bencrest Enterprise,2011-11-18,UBO0008,Construction,0
+CMP0009,Owuroyal Company Ltd,2003-12-16,UBO0009,Construction,0
+CMP0010,Briwave Ltd,2012-04-28,UBO0010,Consultancy,0
+CMP0011,Asabuild Company Ltd,2014-04-11,UBO0011,Construction,0
+CMP0012,Yawlink Services,2018-04-10,UBO0012,Education,0
+CMP0013,Tanoprime Consult,2002-04-05,UBO0013,Consultancy,0
+CMP0014,Adetech Consult,2014-06-07,UBO0014,Consultancy,0
+CMP0015,Sekegold Services,2001-08-19,UBO0015,Health Supplies,0
+CMP0016,Dansobuild Ventures,2006-05-29,UBO0016,Construction,0
+CMP0017,Bonalink Holdings,2003-05-08,UBO0017,Construction,0
+CMP0018,Oseistar Enterprise,2003-01-31,UBO0018,Construction,0
+CMP0019,Abenaprime Consult,2003-05-01,UBO0019,Construction,0
+CMP0020,Ashancore Ltd,2000-10-31,UBO0020,Education,0
+CMP0021,Bencrest Group,2006-12-14,UBO0021,Transport,0
+CMP0022,Benstone Holdings,2001-02-28,UBO0022,Education,0
+CMP0023,Abenabridge Company Ltd,2007-07-28,UBO0023,Energy,0
+CMP0024,Ashanstar Company Ltd,2013-04-13,UBO0006,Construction,0
+CMP0025,Akprime Ltd,2018-10-25,UBO0025,Agriculture,0
+CMP0026,Kwafield Services,2016-03-20,UBO0026,Education,0
+CMP0027,Kwaprime Holdings,2002-08-10,UBO0027,Transport,0
+CMP0028,Owufield Services,2018-10-06,UBO0028,Consultancy,0
+CMP0029,Ashancore Consult,2015-04-14,UBO0029,Health Supplies,0
+CMP0030,Asaroyal Services,2003-05-31,UBO0030,Construction,0
+CMP0031,Koficrest Holdings,2008-07-10,UBO0031,Health Supplies,0
+CMP0032,Bribridge Group,2017-06-09,UBO0032,ICT,0
+CMP0033,Ashanlink Holdings,2007-06-19,UBO0033,Consultancy,0
+CMP0034,Akgold Ltd,2003-06-28,UBO0034,ICT,0
+CMP0035,Bonagold Enterprise,2016-08-16,UBO0035,Agriculture,0
+CMP0036,Adestone Services,2018-02-07,UBO0036,Education,0
+CMP0037,Bonaunity Consult,2018-07-14,UBO0037,Construction,0
+CMP0038,Yawprime Enterprise,2018-02-26,UBO0038,Health Supplies,0
+CMP0039,Kofiprime Services,2016-07-31,UBO0039,Energy,0
+CMP0040,Akcore Holdings,2017-05-03,UBO0040,Energy,1
+CMP0041,Oseicore Ventures,2003-08-27,UBO0041,ICT,0
+CMP0042,Yawstone Ltd,2011-09-22,UBO0042,Health Supplies,0
+CMP0043,Adecore Group,2004-03-12,UBO0043,Agriculture,0
+CMP0044,Esicore Services,2008-12-27,UBO0044,Construction,0
+CMP0045,Esifield Ventures,2012-06-18,UBO0006,Consultancy,0
+CMP0046,Bribridge Ventures,2015-01-20,UBO0046,Construction,0
+CMP0047,Adelink Company Ltd,2005-06-28,UBO0047,Construction,0
+CMP0048,Yawlink Consult,2004-10-14,UBO0048,ICT,0
+CMP0049,Adegold Company Ltd,2013-12-16,UBO0049,Education,0
+CMP0050,Briroyal Company Ltd,2000-02-14,UBO0050,Education,0
+CMP0051,Nanacrest Services,2010-10-05,UBO0051,ICT,0
+CMP0052,Dansobridge Ltd,2014-03-03,UBO0052,Consultancy,0
+CMP0053,Tanowave Group,2010-06-19,UBO0053,ICT,0
+CMP0054,Adewave Ventures,2007-04-18,UBO0054,ICT,0
+CMP0055,Kwawave Enterprise,2015-09-28,UBO0055,ICT,0
+CMP0056,Bristone Enterprise,2007-01-18,UBO0056,Construction,0
+CMP0057,Dansocrest Holdings,2013-07-01,UBO0057,Education,0
+CMP0058,Abenafield Group,2008-10-25,UBO0058,Health Supplies,0
+CMP0059,Kwabridge Consult,2000-07-03,UBO0059,Energy,0
+CMP0060,Dansounity Consult,2010-01-29,UBO0060,Construction,0
+CMP0061,Bricrest Services,2000-12-09,UBO0061,Consultancy,0
+CMP0062,Kwastone Ltd,2017-09-07,UBO0062,ICT,0
+CMP0063,Tanoroyal Services,2011-06-06,UBO0063,Transport,0
+CMP0064,Briprime Enterprise,2007-01-25,UBO0064,ICT,0
+CMP0065,Kofiwave Holdings,2009-03-27,UBO0065,Construction,0
+CMP0066,Bengold Consult,2011-10-06,UBO0066,Transport,0
+CMP0067,Asalink Ltd,2004-12-10,UBO0067,Energy,0
+CMP0068,Bonastone Services,2005-06-24,UBO0068,Agriculture,0
+CMP0069,Kofilink Group,2007-12-15,UBO0069,ICT,0
+CMP0070,Abenaunity Group,2017-03-15,UBO0040,Energy,0
+CMP0071,Dansopeak Group,2014-05-26,UBO0071,Transport,0
+CMP0072,Aklink Holdings,2001-12-21,UBO0072,Energy,0
+CMP0073,Oseistone Group,2015-09-14,UBO0073,Health Supplies,0
+CMP0074,Oseifield Group,2015-03-15,UBO0074,Energy,1
+CMP0075,Yawlink Company Ltd,2015-03-07,UBO0074,Energy,0
+CMP0076,Oseibridge Holdings,2002-12-30,UBO0076,Consultancy,0
+CMP0077,Bonaprime Ltd,2007-04-28,UBO0077,ICT,0
+CMP0078,Esiunity Group,2014-05-03,UBO0078,ICT,0
+CMP0079,Ashanunity Services,2005-02-21,UBO0079,Agriculture,0
+CMP0080,Kofigold Consult,2002-07-06,UBO0080,Education,0
+CMP0081,Bengold Company Ltd,2009-11-30,UBO0081,Agriculture,0
+CMP0082,Kwaprime Ventures,2003-02-01,UBO0082,ICT,0
+CMP0083,Kwacore Holdings,2005-12-24,UBO0083,Construction,0
+CMP0084,Kofilink Ventures,2008-07-22,UBO0084,Agriculture,0
+CMP0085,Benlink Company Ltd,2010-09-19,UBO0085,Construction,0
+CMP0086,Benroyal Holdings,2012-02-23,UBO0086,Construction,0
+CMP0087,Ashancore Ventures,2012-11-08,UBO0087,Energy,0
+CMP0088,Asacrest Enterprise,2016-01-15,UBO0088,Agriculture,0
+CMP0089,Yawwave Holdings,2001-04-03,UBO0089,Transport,0
+CMP0090,Brilink Ltd,2006-11-19,UBO0090,Health Supplies,0
+CMP0091,Benwave Group,2000-01-08,UBO0091,Construction,0
+CMP0092,Bristar Enterprise,2000-03-06,UBO0092,Consultancy,0
+CMP0093,Owubuild Services,2004-01-12,UBO0093,Construction,0
+CMP0094,Esicrest Ltd,2011-05-13,UBO0094,Construction,0
+CMP0095,Asaroyal Company Ltd,2016-12-29,UBO0095,Health Supplies,0
+CMP0096,Owustar Enterprise,2014-09-11,UBO0096,Education,0
+CMP0097,Tanobuild Company Ltd,2012-04-11,UBO0097,Transport,0
+CMP0098,Yawstar Ltd,2014-10-13,UBO0098,Agriculture,0
+CMP0099,Dansotech Services,2003-04-08,UBO0099,Energy,0
+CMP0100,Dansobuild Group,2015-12-15,UBO0100,Construction,0
+CMP0101,Akfield Consult,2016-11-29,UBO0101,Health Supplies,0
+CMP0102,Adecrest Holdings,2001-10-21,UBO0102,ICT,0
+CMP0103,Ashanlink Company Ltd,2008-12-05,UBO0103,Construction,0
+CMP0104,Kwafield Ltd,2012-04-18,UBO0104,Health Supplies,0
+CMP0105,Bonabridge Group,2009-01-16,UBO0105,Health Supplies,0
+CMP0106,Bribuild Ventures,2015-12-20,UBO0106,Construction,0
+CMP0107,Dansostone Group,2017-10-09,UBO0107,Education,0
+CMP0108,Tanoprime Ltd,2009-01-06,UBO0108,Energy,0
+CMP0109,Tanofield Consult,2001-02-16,UBO0109,Construction,0
+CMP0110,Abenacrest Group,2006-06-17,UBO0110,ICT,0
+CMP0111,Abenaroyal Enterprise,2004-02-02,UBO0111,Agriculture,0
+CMP0112,Ashanunity Consult,2009-01-02,UBO0112,Agriculture,0
+CMP0113,Bencrest Ventures,2011-02-16,UBO0113,Agriculture,0
+CMP0114,Bristar Group,2008-10-23,UBO0114,ICT,0
+CMP0115,Kwaprime Enterprise,2003-09-18,UBO0115,Transport,0
+CMP0116,Amastar Ltd,2005-09-20,UBO0116,Health Supplies,0
+CMP0117,Yawstar Group,2012-11-28,UBO0117,ICT,0
+CMP0118,Asaprime Enterprise,2000-07-06,UBO0118,Construction,0
+CMP0119,Nanastone Holdings,2004-01-25,UBO0119,ICT,0
+CMP0120,Voltawave Ltd,2016-12-13,UBO0120,ICT,0
+CMP0121,Sekeunity Group,2001-11-19,UBO0121,Health Supplies,0
+CMP0122,Abenaroyal Company Ltd,2007-11-17,UBO0122,Agriculture,0
+CMP0123,Nanaunity Company Ltd,2003-12-07,UBO0123,Health Supplies,0
+CMP0124,Briunity Consult,2001-12-27,UBO0124,Health Supplies,0
+CMP0125,Kwabridge Ventures,2008-01-12,UBO0125,Construction,0
+CMP0126,Ashanroyal Ltd,2009-11-27,UBO0126,ICT,0
+CMP0127,Amacore Consult,2003-05-07,UBO0127,Health Supplies,0
+CMP0128,Kwacrest Holdings,2001-06-23,UBO0128,ICT,1
+CMP0129,Yawroyal Services,2002-07-23,UBO0129,Health Supplies,0
+CMP0130,Amagold Holdings,2012-05-18,UBO0130,Agriculture,0
+CMP0131,Tanowave Ltd,2016-05-05,UBO0131,Consultancy,0
+CMP0132,Yawstone Enterprise,2003-06-05,UBO0132,ICT,0
+CMP0133,Bonabuild Services,2006-02-01,UBO0133,Energy,0
+CMP0134,Esigold Consult,2006-07-13,UBO0134,Transport,0
+CMP0135,Abenaroyal Group,2006-11-08,UBO0135,Consultancy,0
+CMP0136,Sekestone Services,2004-08-22,UBO0136,Education,0
+CMP0137,Kofistone Ventures,2001-01-18,UBO0137,Transport,0
+CMP0138,Ashanroyal Ventures,2009-12-23,UBO0138,Transport,0
+CMP0139,Tanocrest Company Ltd,2006-10-15,UBO0139,Agriculture,0
+CMP0140,Amawave Ltd,2006-07-02,UBO0140,ICT,0
+CMP0141,Dansocore Group,2005-01-11,UBO0141,Construction,0
+CMP0142,Yawtech Ventures,2017-08-27,UBO0071,Construction,0
+CMP0143,Amalink Services,2011-08-07,UBO0143,ICT,0
+CMP0144,Owustar Group,2007-12-15,UBO0144,ICT,0
+CMP0145,Kwabridge Group,2003-11-26,UBO0145,ICT,0
+CMP0146,Adetech Group,2015-03-21,UBO0146,Education,0
+CMP0147,Kofistone Company Ltd,2016-11-16,UBO0147,Education,0
+CMP0148,Kwatech Consult,2000-08-12,UBO0148,Transport,0
+CMP0149,Bristar Ventures,2017-08-29,UBO0149,Construction,0
+CMP0150,Kwatech Company Ltd,2013-04-15,UBO0150,Health Supplies,0
+CMP0151,Briunity Ventures,2001-11-23,UBO0151,Agriculture,0
+CMP0152,Nanawave Ltd,2014-04-23,UBO0152,Transport,0
+CMP0153,Voltagold Holdings,2002-01-15,UBO0153,Consultancy,0
+CMP0154,Bricrest Company Ltd,2000-12-18,UBO0154,Transport,0
+CMP0155,Oseicore Consult,2002-03-11,UBO0155,Transport,0
+CMP0156,Asaunity Enterprise,2008-09-25,UBO0156,Health Supplies,0
+CMP0157,Sekebridge Consult,2008-01-20,UBO0002,ICT,0
+CMP0158,Esifield Group,2007-09-27,UBO0158,Health Supplies,0
+CMP0159,Bonapeak Group,2015-11-18,UBO0159,Education,0
+CMP0160,Owucore Group,2003-10-14,UBO0160,Consultancy,0
+CMP0161,Owuunity Company Ltd,2016-03-11,UBO0161,Health Supplies,0
+CMP0162,Akwave Services,2006-08-20,UBO0162,Education,0
+CMP0163,Tanopeak Enterprise,2014-04-30,UBO0163,Health Supplies,0
+CMP0164,Dansolink Group,2001-12-18,UBO0164,Construction,0
 CMP0165,Nanacore Holdings,2015-07-29,UBO0165,Construction,0
-CMP0166,Voltaunity Group,2013-02-22,UBO0166,Construction,0
-CMP0167,Tanoprime Enterprise,2015-07-15,UBO0159,Consultancy,0
-CMP0168,Tanofield Consult,2002-09-20,UBO0168,ICT,0
-CMP0169,Kofibuild Ventures,2018-12-07,UBO0169,Transport,0
-CMP0170,Kwabridge Ventures,2015-02-17,UBO0074,Energy,1
-CMP0171,Owustar Group,2000-11-02,UBO0171,Construction,0
-CMP0172,Dansocore Company Ltd,2003-12-27,UBO0172,Construction,0
-CMP0173,Bonastar Services,2007-08-16,UBO0173,Agriculture,0
-CMP0174,Bribuild Consult,2001-03-08,UBO0174,Health Supplies,0
-CMP0175,Kofilink Ventures,2006-02-25,UBO0175,Transport,0
-CMP0176,Esigold Ventures,2008-11-24,UBO0176,Construction,0
-CMP0177,Adepeak Services,2018-01-08,UBO0177,Energy,0
-CMP0178,Adegold Enterprise,2001-08-22,UBO0178,Agriculture,0
-CMP0179,Kwaprime Ltd,2010-12-16,UBO0179,Health Supplies,0
-CMP0180,Voltatech Company Ltd,2017-05-25,UBO0180,Health Supplies,0
-CMP0181,Ashanfield Group,2007-05-24,UBO0021,Consultancy,0
-CMP0182,Aderoyal Group,2017-07-28,UBO0182,Health Supplies,0
-CMP0183,Esibridge Services,2003-03-27,UBO0183,ICT,0
-CMP0184,Esibuild Ltd,2015-03-23,UBO0184,ICT,0
-CMP0185,Ashanroyal Ventures,2018-08-04,UBO0185,Health Supplies,0
-CMP0186,Yawstar Holdings,2006-03-12,UBO0186,Agriculture,0
-CMP0187,Abenagold Enterprise,2009-06-22,UBO0187,Agriculture,0
-CMP0188,Esigold Holdings,2010-01-31,UBO0188,ICT,0
-CMP0189,Yawroyal Group,2009-05-18,UBO0189,Transport,0
-CMP0190,Adecore Group,2005-07-03,UBO0190,Construction,0
-CMP0191,Kofiroyal Company Ltd,2018-06-11,UBO0191,Construction,0
-CMP0192,Amalink Consult,2018-03-04,UBO0192,Education,0
-CMP0193,Bonawave Company Ltd,2007-03-26,UBO0193,Consultancy,0
-CMP0194,Nanawave Ltd,2015-04-19,UBO0194,Construction,0
-CMP0195,Tanoprime Ltd,2007-07-21,UBO0195,Construction,0
-CMP0196,Adewave Ltd,2006-07-14,UBO0162,Education,0
-CMP0197,Kwafield Ltd,2011-02-09,UBO0197,Agriculture,0
-CMP0198,Ashangold Ltd,2008-12-06,UBO0198,Construction,0
-CMP0199,Dansobuild Group,2002-06-07,UBO0199,ICT,0
-CMP0200,Bonastone Services,2012-06-08,UBO0003,Agriculture,0
-CMP0201,Sekestone Services,2006-02-06,UBO0201,ICT,0
-CMP0202,Oseitech Consult,2004-02-13,UBO0202,Construction,0
-CMP0203,Benbuild Company Ltd,2003-09-02,UBO0203,Construction,0
-CMP0204,Benstar Holdings,2018-08-27,UBO0204,ICT,0
-CMP0205,Asastone Group,2001-12-17,UBO0205,ICT,0
-CMP0206,Owubuild Services,2015-03-03,UBO0206,Transport,0
-CMP0207,Briunity Consult,2016-06-15,UBO0207,Energy,0
-CMP0208,Amatech Consult,2000-08-03,UBO0006,Energy,0
-CMP0209,Asacrest Enterprise,2011-03-13,UBO0209,Consultancy,0
-CMP0210,Briwave Company Ltd,2010-12-20,UBO0210,ICT,0
-CMP0211,Adetech Consult,2006-10-24,UBO0211,ICT,0
-CMP0212,Amapeak Ventures,2012-08-31,UBO0212,Consultancy,0
-CMP0213,Asawave Holdings,2007-10-06,UBO0213,Health Supplies,0
-CMP0214,Abenaunity Group,2008-05-09,UBO0214,Agriculture,0
-CMP0215,Bristone Group,2008-03-13,UBO0215,Agriculture,0
-CMP0216,Asacore Group,2015-03-18,UBO0216,Construction,0
-CMP0217,Dansostar Enterprise,2012-01-11,UBO0217,ICT,0
-CMP0218,Ashanstar Company Ltd,2007-03-15,UBO0218,Construction,0
-CMP0219,Yawpeak Ltd,2017-08-09,UBO0219,Construction,0
-CMP0220,Bricrest Services,2008-02-29,UBO0002,ICT,0
-CMP0221,Owufield Group,2016-07-17,UBO0221,Health Supplies,1
-CMP0222,Owuroyal Services,2013-11-16,UBO0222,Agriculture,0
-CMP0223,Abenalink Company Ltd,2007-06-09,UBO0223,Transport,0
-CMP0224,Owuwave Consult,2014-09-07,UBO0003,Agriculture,0
-CMP0225,Oseifield Group,2006-04-03,UBO0225,Health Supplies,0
-CMP0226,Bonacrest Services,2005-02-22,UBO0226,Health Supplies,0
-CMP0227,Ashanprime Holdings,2008-07-26,UBO0227,Health Supplies,0
-CMP0228,Kwatech Company Ltd,2018-05-31,UBO0228,Construction,0
-CMP0229,Bribridge Consult,2010-10-15,UBO0229,Consultancy,0
-CMP0230,Kofiprime Ltd,2007-04-16,UBO0230,ICT,0
-CMP0231,Abenastar Group,2012-03-04,UBO0104,Health Supplies,0
-CMP0232,Bonabridge Holdings,2005-07-13,UBO0232,Transport,0
-CMP0233,Aklink Holdings,2012-07-07,UBO0233,ICT,0
-CMP0234,Akfield Consult,2006-08-28,UBO0234,Construction,0
-CMP0235,Kwapeak Group,2010-07-13,UBO0235,Construction,0
-CMP0236,Voltabuild Services,2015-01-23,UBO0074,Energy,0
-CMP0237,Esifield Ventures,2006-02-03,UBO0237,Agriculture,0
-CMP0238,Voltagold Holdings,2008-03-07,UBO0002,Construction,0
-CMP0239,Dansoprime Consult,2006-07-27,UBO0239,Transport,0
-CMP0240,Oseitech Enterprise,2001-05-04,UBO0240,Transport,0
-CMP0241,Adetech Group,2007-03-12,UBO0241,Transport,0
-CMP0242,Yawtech Ltd,2010-02-09,UBO0242,Health Supplies,0
-CMP0243,Bonagold Ltd,2001-10-18,UBO0243,Construction,0
-CMP0244,Sekeunity Enterprise,2005-10-22,UBO0244,Transport,0
-CMP0245,Asapeak Enterprise,2003-02-26,UBO0245,Health Supplies,0
-CMP0246,Voltaunity Consult,2009-07-05,UBO0246,Education,0
-CMP0247,Asacrest Group,2013-09-26,UBO0247,Agriculture,0
-CMP0248,Owufield Services,2018-05-26,UBO0248,Construction,0
-CMP0249,Voltagold Consult,2007-05-23,UBO0249,Agriculture,0
-CMP0250,Kwafield Holdings,2016-05-26,UBO0250,Consultancy,0
-CMP0251,Akprime Company Ltd,2004-01-28,UBO0251,Agriculture,0
-CMP0252,Dansotech Services,2007-10-29,UBO0002,ICT,0
-CMP0253,Bristar Group,2010-09-09,UBO0253,Transport,0
-CMP0254,Koficrest Holdings,2006-07-30,UBO0162,Education,0
-CMP0255,Esibridge Ventures,2014-05-09,UBO0255,Agriculture,0
-CMP0256,Tanowave Ltd,2010-02-11,UBO0256,Transport,0
-CMP0257,Briwave Ltd,2004-11-21,UBO0257,Agriculture,0
-CMP0258,Tanotech Group,2009-12-30,UBO0258,Health Supplies,0
-CMP0259,Amastone Services,2015-09-16,UBO0259,Construction,0
-CMP0260,Ashanfield Ltd,2018-06-10,UBO0260,Health Supplies,0
-CMP0261,Dansobuild Ventures,2017-08-14,UBO0261,Education,0
-CMP0262,Abenabridge Company Ltd,2003-06-13,UBO0262,Education,0
-CMP0263,Nanafield Services,2011-05-08,UBO0263,Education,0
-CMP0264,Akcrest Consult,2001-12-26,UBO0264,ICT,0
-CMP0265,Owupeak Holdings,2012-09-15,UBO0265,Agriculture,0
-CMP0266,Owuprime Consult,2018-11-07,UBO0266,Transport,0
-CMP0267,Tanopeak Group,2000-12-30,UBO0267,Health Supplies,0
-CMP0268,Bonaunity Ventures,2012-06-21,UBO0268,Agriculture,0
-CMP0269,Bonawave Enterprise,2017-05-14,UBO0040,Energy,1
-CMP0270,Bricore Enterprise,2016-02-04,UBO0246,Education,0
-CMP0271,Kofiwave Services,2007-06-16,UBO0271,Construction,0
-CMP0272,Voltacore Consult,2001-12-22,UBO0272,Agriculture,0
-CMP0273,Tanoroyal Ltd,2017-07-20,UBO0006,Consultancy,0
-CMP0274,Owuroyal Company Ltd,2017-07-03,UBO0274,Agriculture,0
-CMP0275,Asastone Services,2010-12-31,UBO0275,Transport,0
-CMP0276,Asatech Ltd,2018-08-06,UBO0276,Consultancy,0
-CMP0277,Bonaunity Consult,2000-02-02,UBO0277,Health Supplies,0
-CMP0278,Asastar Group,2011-09-18,UBO0278,Energy,0
-CMP0279,Ashancore Services,2000-09-24,UBO0279,ICT,0
-CMP0280,Nanaprime Group,2017-10-10,UBO0280,Consultancy,0
-CMP0281,Ashanunity Group,2012-12-04,UBO0281,Construction,0
-CMP0282,Owustar Enterprise,2017-05-09,UBO0282,ICT,0
-CMP0283,Oseicore Company Ltd,2010-09-09,UBO0283,Transport,0
-CMP0284,Akbridge Consult,2001-07-31,UBO0284,Health Supplies,0
-CMP0285,Yawunity Enterprise,2000-07-03,UBO0285,Agriculture,0
-CMP0286,Ashancore Enterprise,2006-05-17,UBO0286,ICT,0
-CMP0287,Briroyal Company Ltd,2014-02-14,UBO0287,Consultancy,0
-CMP0288,Esifield Group,2002-11-14,UBO0288,Transport,0
-CMP0289,Kofiwave Holdings,2016-03-10,UBO0289,Health Supplies,0
-CMP0290,Tanocore Company Ltd,2004-07-19,UBO0290,Agriculture,0
-CMP0291,Tanocore Ltd,2009-06-06,UBO0291,Health Supplies,0
-CMP0292,Kofigold Consult,2003-11-10,UBO0292,Education,0
-CMP0293,Oseiunity Group,2017-04-15,UBO0040,Energy,0
-CMP0294,Abenabridge Services,2008-08-03,UBO0294,Transport,0
-CMP0295,Dansostar Ventures,2015-02-18,UBO0046,Construction,1
-CMP0296,Kwabridge Consult,2010-10-15,UBO0296,Health Supplies,0
-CMP0297,Tanoroyal Holdings,2014-12-11,UBO0297,Energy,0
-CMP0298,Nanastone Holdings,2017-10-14,UBO0298,Education,0
-CMP0299,Kwaprime Group,2006-04-13,UBO0299,ICT,0
-CMP0300,Ashanprime Services,2016-09-23,UBO0300,Construction,0
-CMP0301,Adewave Ventures,2016-09-10,UBO0301,Health Supplies,0
-CMP0302,Kofistone Ventures,2018-10-11,UBO0302,Transport,0
-CMP0303,Kwastar Ltd,2007-02-01,UBO0303,Construction,0
-CMP0304,Tanoprime Consult,2016-03-01,UBO0304,ICT,0
-CMP0305,Bengold Ltd,2010-09-26,UBO0305,Consultancy,0
-CMP0306,Adegold Company Ltd,2001-02-08,UBO0306,Construction,0
-CMP0307,Dansocore Group,2005-02-18,UBO0307,Agriculture,0
-CMP0308,Dansoroyal Consult,2012-10-07,UBO0308,Health Supplies,0
-CMP0309,Adeprime Consult,2008-08-05,UBO0309,Transport,0
-CMP0310,Asabridge Ltd,2008-04-04,UBO0310,Agriculture,0
-CMP0311,Amaunity Ventures,2014-09-21,UBO0311,Transport,0
-CMP0312,Benprime Company Ltd,2002-11-05,UBO0312,Construction,0
-CMP0313,Kofiprime Services,2009-06-07,UBO0313,Education,0
-CMP0314,Benlink Group,2004-01-30,UBO0314,Agriculture,0
-CMP0315,Bonaprime Enterprise,2010-03-11,UBO0315,Health Supplies,0
-CMP0316,Yawstar Ltd,2004-07-28,UBO0316,Health Supplies,0
-CMP0317,Adebuild Services,2018-05-05,UBO0317,Construction,0
-CMP0318,Akprime Group,2001-06-16,UBO0318,Consultancy,0
-CMP0319,Briroyal Ventures,2017-04-10,UBO0040,Energy,0
-CMP0320,Voltawave Ventures,2015-01-16,UBO0320,Energy,0
-CMP0321,Yawtech Ventures,2016-04-03,UBO0321,Agriculture,0
-CMP0322,Tanobuild Company Ltd,2016-03-05,UBO0322,Education,0
-CMP0323,Abenabridge Holdings,2003-07-25,UBO0323,ICT,0
-CMP0324,Bonagold Enterprise,2017-09-08,UBO0324,ICT,0
-CMP0325,Abenalink Enterprise,2014-10-23,UBO0325,Energy,1
-CMP0326,Oseiroyal Holdings,2018-04-12,UBO0326,Construction,0
-CMP0327,Esibuild Consult,2016-09-06,UBO0327,Transport,0
-CMP0328,Ashanprime Ltd,2011-01-04,UBO0328,Agriculture,0
-CMP0329,Ashanunity Consult,2016-05-25,UBO0221,Health Supplies,1
-CMP0330,Kwacore Enterprise,2002-03-24,UBO0330,Education,0
-CMP0331,Akgold Ltd,2001-12-02,UBO0331,Construction,0
-CMP0332,Dansostone Group,2007-05-28,UBO0332,Consultancy,0
-CMP0333,Adetech Ventures,2008-08-11,UBO0309,Transport,0
-CMP0334,Voltawave Ltd,2009-08-07,UBO0334,Consultancy,0
-CMP0335,Tanocore Services,2012-03-06,UBO0104,Health Supplies,0
-CMP0336,Adecrest Holdings,2004-08-23,UBO0336,Construction,0
-CMP0337,Oseistone Company Ltd,2010-09-21,UBO0337,Construction,0
-CMP0338,Kwaunity Company Ltd,2009-08-14,UBO0338,Construction,0
-CMP0339,Bonagold Company Ltd,2009-08-25,UBO0338,Construction,0
-CMP0340,Bricrest Company Ltd,2013-11-09,UBO0340,Construction,0
-CMP0341,Yawgold Enterprise,2011-07-15,UBO0341,Consultancy,0
-CMP0342,Bribridge Group,2017-04-16,UBO0342,Construction,0
-CMP0343,Dansofield Ltd,2008-01-27,UBO0343,Construction,0
-CMP0344,Esiroyal Enterprise,2017-10-05,UBO0344,Transport,0
-CMP0345,Akcrest Holdings,2007-01-11,UBO0345,Education,0
-CMP0346,Kofifield Services,2002-06-05,UBO0346,Agriculture,0
-CMP0347,Amastar Ltd,2007-12-07,UBO0347,Energy,0
-CMP0348,Tanoroyal Group,2002-06-12,UBO0348,Transport,0
-CMP0349,Ashanbuild Group,2002-04-01,UBO0349,Energy,0
-CMP0350,Voltagold Enterprise,2016-09-27,UBO0350,Education,0
-CMP0351,Abenapeak Enterprise,2015-01-05,UBO0325,Energy,1
-CMP0352,Dansopeak Group,2004-03-14,UBO0352,ICT,0
-CMP0353,Dansostone Services,2015-11-30,UBO0353,Health Supplies,0
-CMP0354,Benfield Consult,2001-04-23,UBO0354,ICT,0
-CMP0355,Kwacore Holdings,2005-05-27,UBO0355,Construction,0
-CMP0356,Akfield Holdings,2013-05-31,UBO0356,Agriculture,0
-CMP0357,Bonaprime Services,2005-10-09,UBO0357,Health Supplies,0
-CMP0358,Asaroyal Consult,2013-11-16,UBO0358,Construction,0
-CMP0359,Sekecore Services,2016-08-11,UBO0359,Health Supplies,0
-CMP0360,Voltawave Company Ltd,2001-04-03,UBO0360,Transport,0
-CMP0361,Yawtech Holdings,2000-06-15,UBO0361,Health Supplies,0
-CMP0362,Voltafield Company Ltd,2017-11-09,UBO0362,Energy,0
-CMP0363,Dansobuild Enterprise,2009-11-20,UBO0363,Transport,0
-CMP0364,Bonalink Enterprise,2009-08-15,UBO0364,Construction,1
-CMP0365,Adestone Ltd,2008-10-22,UBO0365,Agriculture,0
-CMP0366,Voltalink Holdings,2015-02-03,UBO0029,Health Supplies,1
-CMP0367,Bonapeak Ltd,2013-02-09,UBO0367,Construction,0
-CMP0368,Ashanstone Ventures,2011-01-05,UBO0368,Energy,0
-CMP0369,Voltatech Ventures,2007-01-01,UBO0021,Transport,0
-CMP0370,Esiwave Company Ltd,2011-11-27,UBO0370,Health Supplies,0
-CMP0371,Kwaunity Services,2012-09-11,UBO0371,Education,0
-CMP0372,Dansobridge Ltd,2002-02-27,UBO0372,Health Supplies,0
-CMP0373,Tanopeak Enterprise,2007-02-27,UBO0373,Education,0
-CMP0374,Nanaprime Company Ltd,2015-01-06,UBO0074,Energy,0
-CMP0375,Tanogold Ventures,2011-10-03,UBO0375,Education,0
-CMP0376,Nanacrest Services,2002-08-04,UBO0376,Energy,0
-CMP0377,Ashanunity Services,2000-10-05,UBO0377,Construction,0
-CMP0378,Sekestar Ventures,2011-01-16,UBO0378,Energy,0
-CMP0379,Kofibuild Group,2008-10-08,UBO0379,Energy,0
-CMP0380,Yawfield Services,2015-03-06,UBO0074,Energy,0
-CMP0381,Asaunity Consult,2009-12-02,UBO0381,Construction,0
-CMP0382,Koficore Ltd,2017-09-11,UBO0382,ICT,0
-CMP0383,Kwaunity Holdings,2004-01-27,UBO0383,ICT,0
-CMP0384,Nanacore Ventures,2008-07-01,UBO0384,Construction,0
-CMP0385,Esigold Consult,2015-03-07,UBO0029,Health Supplies,0
-CMP0386,Sekeroyal Group,2010-11-28,UBO0386,ICT,0
-CMP0387,Akunity Group,2003-07-31,UBO0387,Agriculture,0
-CMP0388,Amastone Holdings,2009-05-08,UBO0388,Health Supplies,0
-CMP0389,Bonalink Ventures,2006-07-15,UBO0389,Transport,0
-CMP0390,Kofilink Group,2003-07-12,UBO0390,Education,0
-CMP0391,Brilink Ventures,2001-11-02,UBO0391,Agriculture,0
-CMP0392,Asabuild Company Ltd,2009-09-23,UBO0392,ICT,0
-CMP0393,Asaroyal Services,2017-12-30,UBO0393,ICT,0
-CMP0394,Yawlink Company Ltd,2003-10-11,UBO0394,Education,0
-CMP0395,Abenatech Company Ltd,2007-09-11,UBO0395,Consultancy,0
-CMP0396,Nanaunity Company Ltd,2004-04-07,UBO0396,ICT,0
-CMP0397,Akbuild Company Ltd,2015-05-15,UBO0397,Education,0
-CMP0398,Ashanstone Holdings,2007-11-19,UBO0246,Education,0
-CMP0399,Ashancore Ltd,2018-07-06,UBO0399,Agriculture,0
-CMP0400,Dansolink Group,2004-08-28,UBO0400,Construction,0
-CMP0401,Adecrest Group,2001-07-14,UBO0096,Education,0
-CMP0402,Asaunity Group,2011-01-25,UBO0402,ICT,0
-CMP0403,Kwaprime Enterprise,2012-05-18,UBO0403,Consultancy,0
-CMP0404,Benbuild Group,2018-10-27,UBO0404,ICT,0
-CMP0405,Abenacrest Group,2016-07-21,UBO0405,ICT,0
-CMP0406,Oseiwave Ventures,2016-10-18,UBO0406,Consultancy,0
-CMP0407,Tanoroyal Services,2012-01-18,UBO0407,ICT,0
-CMP0408,Yawprime Enterprise,2006-11-01,UBO0408,Construction,0
-CMP0409,Bencore Company Ltd,2008-02-25,UBO0409,Construction,0
-CMP0410,Kwawave Holdings,2015-01-13,UBO0046,Construction,0
-CMP0411,Bonabuild Company Ltd,2008-03-10,UBO0411,Construction,0
-CMP0412,Kwacrest Consult,2006-12-03,UBO0412,ICT,0
-CMP0413,Bonacrest Ltd,2000-09-06,UBO0413,Agriculture,0
-CMP0414,Oseicore Consult,2003-11-19,UBO0414,Agriculture,0
-CMP0415,Asalink Holdings,2010-02-26,UBO0415,Construction,0
-CMP0416,Benbuild Holdings,2007-01-06,UBO0096,Education,0
-CMP0417,Owucore Group,2018-11-16,UBO0417,Construction,0
-CMP0418,Bengold Company Ltd,2009-02-02,UBO0418,Consultancy,0
-CMP0419,Akwave Services,2018-03-19,UBO0419,Construction,0
-CMP0420,Bonabridge Group,2012-07-20,UBO0420,Energy,0
-CMP0421,Amalink Services,2000-10-07,UBO0421,Health Supplies,0
-CMP0422,Abenapeak Ltd,2003-11-12,UBO0422,Energy,0
-CMP0423,Asacrest Ventures,2013-05-29,UBO0423,ICT,0
-CMP0424,Ashanlink Company Ltd,2010-05-10,UBO0424,Agriculture,0
-CMP0425,Yawlink Services,2005-09-24,UBO0425,Health Supplies,0
-CMP0426,Benwave Ltd,2009-12-01,UBO0426,Transport,0
-CMP0427,Sekeunity Consult,2017-02-25,UBO0427,Education,0
-CMP0428,Bonagold Group,2007-05-21,UBO0428,Agriculture,0
-CMP0429,Adelink Enterprise,2000-11-09,UBO0429,Transport,0
-CMP0430,Kwafield Group,2005-11-27,UBO0430,Consultancy,0
-CMP0431,Asaroyal Company Ltd,2017-10-12,UBO0431,Health Supplies,0
-CMP0432,Yawlink Consult,2014-06-21,UBO0432,Health Supplies,1
-CMP0433,Benstone Services,2015-11-29,UBO0433,Health Supplies,0
-CMP0434,Kwagold Services,2015-03-29,UBO0029,Health Supplies,0
-CMP0435,Asaroyal Holdings,2002-03-26,UBO0435,Education,0
-CMP0436,Sekecrest Group,2005-05-15,UBO0436,Consultancy,0
-CMP0437,Kwaunity Ventures,2001-02-19,UBO0437,Consultancy,0
-CMP0438,Voltawave Enterprise,2000-02-02,UBO0438,Education,0
-CMP0439,Bribuild Ventures,2015-11-10,UBO0439,Energy,0
-CMP0440,Adeprime Services,2017-10-19,UBO0440,Transport,0
-CMP0441,Abenatech Holdings,2002-12-16,UBO0441,Consultancy,0
-CMP0442,Amastar Holdings,2013-09-20,UBO0442,Construction,0
-CMP0443,Ashancrest Company Ltd,2010-02-28,UBO0443,Education,0
-CMP0444,Voltaroyal Services,2001-04-25,UBO0444,Transport,0
-CMP0445,Nanaroyal Enterprise,2017-05-25,UBO0445,Health Supplies,0
-CMP0446,Kofiroyal Group,2016-07-20,UBO0446,ICT,0
-CMP0447,Kwafield Services,2010-10-12,UBO0447,Consultancy,0
-CMP0448,Akbridge Ltd,2013-06-13,UBO0448,Consultancy,0
-CMP0449,Nanaprime Ventures,2007-07-19,UBO0449,Transport,0
-CMP0450,Briwave Holdings,2015-01-23,UBO0450,Agriculture,0
-CMP0451,Abenaroyal Enterprise,2008-06-14,UBO0451,Health Supplies,0
-CMP0452,Ashanstone Enterprise,2018-10-16,UBO0452,Health Supplies,0
-CMP0453,Bristar Ventures,2001-03-13,UBO0246,Education,0
-CMP0454,Akbuild Ventures,2003-04-09,UBO0454,Education,0
-CMP0455,Yawstone Enterprise,2018-05-28,UBO0455,Education,0
-CMP0456,Benpeak Company Ltd,2005-06-26,UBO0456,Energy,0
-CMP0457,Bencrest Enterprise,2005-11-25,UBO0457,ICT,0
-CMP0458,Adewave Company Ltd,2015-01-12,UBO0458,Agriculture,0
-CMP0459,Briprime Enterprise,2003-08-06,UBO0459,Health Supplies,0
-CMP0460,Bonaroyal Ltd,2009-10-03,UBO0460,Health Supplies,0
-CMP0461,Akbuild Ltd,2005-06-07,UBO0461,Construction,0
-CMP0462,Bonaprime Ltd,2003-10-05,UBO0462,Construction,0
-CMP0463,Sekecore Group,2018-04-27,UBO0463,Transport,0
-CMP0464,Yawstone Ltd,2003-10-19,UBO0464,ICT,0
-CMP0465,Ashanunity Enterprise,2001-10-16,UBO0465,Health Supplies,0
-CMP0466,Tanoprime Company Ltd,2012-10-20,UBO0006,Agriculture,0
-CMP0467,Esistone Services,2016-06-23,UBO0096,Education,0
-CMP0468,Voltastone Group,2002-06-03,UBO0468,Construction,0
-CMP0469,Esistar Enterprise,2013-06-12,UBO0469,Health Supplies,0
-CMP0470,Esicrest Ltd,2010-04-10,UBO0470,Construction,0
-CMP0471,Kofiwave Group,2015-10-08,UBO0471,Energy,0
-CMP0472,Asaprime Enterprise,2002-05-30,UBO0472,Health Supplies,0
-CMP0473,Amagold Holdings,2018-07-16,UBO0473,Construction,0
-CMP0474,Kofiroyal Holdings,2011-10-06,UBO0474,Construction,0
-CMP0475,Bencrest Ventures,2015-12-31,UBO0475,Education,0
-CMP0476,Amabuild Ltd,2006-11-16,UBO0476,Construction,0
-CMP0477,Kwacore Consult,2017-12-03,UBO0477,Transport,0
-CMP0478,Asacore Company Ltd,2011-11-25,UBO0478,Construction,0
-CMP0479,Oseibridge Consult,2002-05-30,UBO0479,Education,0
-CMP0480,Benfield Enterprise,2017-07-14,UBO0480,ICT,0
-CMP0481,Esistone Consult,2015-02-12,UBO0481,ICT,0
-CMP0482,Ashanunity Ltd,2005-09-14,UBO0482,Construction,0
-CMP0483,Adelink Ventures,2010-05-14,UBO0483,Agriculture,0
-CMP0484,Bribridge Ventures,2007-05-16,UBO0484,Transport,0
-CMP0485,Ashancore Consult,2010-04-29,UBO0485,Construction,0
-CMP0486,Ashanwave Holdings,2018-05-04,UBO0486,Construction,0
-CMP0487,Ashanstar Consult,2017-01-28,UBO0487,Transport,0
-CMP0488,Abenaroyal Company Ltd,2006-11-30,UBO0021,Education,0
-CMP0489,Adetech Ltd,2018-06-18,UBO0489,Construction,0
-CMP0490,Asalink Ltd,2008-04-26,UBO0490,Construction,0
-CMP0491,Kwabridge Holdings,2014-11-09,UBO0325,Energy,1
-CMP0492,Yawpeak Enterprise,2014-07-08,UBO0492,Agriculture,0
-CMP0493,Owustone Group,2009-03-05,UBO0493,Education,0
-CMP0494,Benunity Consult,2008-09-03,UBO0494,Consultancy,0
-CMP0495,Bonapeak Group,2008-09-01,UBO0495,ICT,0
-CMP0496,Asatech Services,2016-05-21,UBO0496,Health Supplies,0
-CMP0497,Asabridge Company Ltd,2006-12-12,UBO0021,ICT,0
-CMP0498,Amacore Holdings,2005-04-26,UBO0498,Health Supplies,0
-CMP0499,Yawstar Group,2006-11-14,UBO0499,Health Supplies,0
-CMP0500,Akpeak Services,2003-09-14,UBO0500,Construction,0
+CMP0166,Benstone Enterprise,2013-02-22,UBO0166,Construction,0
+CMP0167,Ashanpeak Holdings,2015-07-15,UBO0159,Consultancy,0
+CMP0168,Sekeroyal Enterprise,2002-09-20,UBO0168,ICT,0
+CMP0169,Esiwave Services,2018-12-07,UBO0169,Transport,0
+CMP0170,Kwaunity Company Ltd,2015-02-17,UBO0074,Energy,1
+CMP0171,Bonaprime Enterprise,2000-11-02,UBO0171,Construction,0
+CMP0172,Bristone Consult,2003-12-27,UBO0172,Construction,0
+CMP0173,Kwagold Consult,2007-08-16,UBO0173,Agriculture,0
+CMP0174,Bonagold Ltd,2001-03-08,UBO0174,Health Supplies,0
+CMP0175,Abenatech Holdings,2006-02-25,UBO0175,Transport,0
+CMP0176,Voltafield Company Ltd,2008-11-24,UBO0176,Construction,0
+CMP0177,Yawcore Consult,2018-01-08,UBO0177,Energy,0
+CMP0178,Abenapeak Enterprise,2001-08-22,UBO0178,Agriculture,0
+CMP0179,Kwabuild Holdings,2010-12-16,UBO0179,Health Supplies,0
+CMP0180,Benlink Group,2017-05-25,UBO0180,Health Supplies,0
+CMP0181,Voltawave Company Ltd,2007-05-24,UBO0021,Consultancy,0
+CMP0182,Sekebridge Services,2017-07-28,UBO0182,Health Supplies,0
+CMP0183,Amapeak Ventures,2003-03-27,UBO0183,ICT,0
+CMP0184,Asawave Holdings,2015-03-23,UBO0184,ICT,0
+CMP0185,Adewave Company Ltd,2018-08-04,UBO0185,Health Supplies,0
+CMP0186,Asastar Group,2006-03-12,UBO0186,Agriculture,0
+CMP0187,Bonalink Ventures,2009-06-22,UBO0187,Agriculture,0
+CMP0188,Kofipeak Ventures,2010-01-31,UBO0188,ICT,0
+CMP0189,Oseiwave Ventures,2009-05-18,UBO0189,Transport,0
+CMP0190,Dansounity Enterprise,2005-07-03,UBO0190,Construction,0
+CMP0191,Ashanunity Group,2018-06-11,UBO0191,Construction,0
+CMP0192,Ashanfield Group,2018-03-04,UBO0192,Education,0
+CMP0193,Kofiroyal Holdings,2007-03-26,UBO0193,Consultancy,0
+CMP0194,Ashantech Enterprise,2015-04-19,UBO0194,Construction,0
+CMP0195,Bonabridge Ventures,2007-07-21,UBO0195,Construction,0
+CMP0196,Asacore Ventures,2006-07-14,UBO0162,Education,0
+CMP0197,Voltaunity Consult,2011-02-09,UBO0197,Agriculture,0
+CMP0198,Bonapeak Ltd,2008-12-06,UBO0198,Construction,0
+CMP0199,Voltacore Consult,2002-06-07,UBO0199,ICT,0
+CMP0200,Yawfield Services,2012-06-08,UBO0003,Agriculture,0
+CMP0201,Esigold Holdings,2006-02-06,UBO0201,ICT,0
+CMP0202,Tanowave Services,2004-02-13,UBO0202,Construction,0
+CMP0203,Bricore Enterprise,2003-09-02,UBO0203,Construction,0
+CMP0204,Aktech Ventures,2018-08-27,UBO0204,ICT,0
+CMP0205,Kofilink Ltd,2001-12-17,UBO0205,ICT,0
+CMP0206,Bripeak Company Ltd,2015-03-03,UBO0206,Transport,0
+CMP0207,Benbuild Holdings,2016-06-15,UBO0207,Energy,0
+CMP0208,Briroyal Ventures,2000-08-03,UBO0006,Energy,0
+CMP0209,Dansoroyal Group,2011-03-13,UBO0209,Consultancy,0
+CMP0210,Akroyal Company Ltd,2010-12-20,UBO0210,ICT,0
+CMP0211,Oseiroyal Holdings,2006-10-24,UBO0211,ICT,0
+CMP0212,Kofiroyal Company Ltd,2012-08-31,UBO0212,Consultancy,0
+CMP0213,Kofiunity Services,2007-10-06,UBO0213,Health Supplies,0
+CMP0214,Adestone Ltd,2008-05-09,UBO0214,Agriculture,0
+CMP0215,Voltabridge Ltd,2008-03-13,UBO0215,Agriculture,0
+CMP0216,Yawtech Ltd,2015-03-18,UBO0216,Construction,0
+CMP0217,Kwaunity Ventures,2012-01-11,UBO0217,ICT,0
+CMP0218,Adecrest Group,2007-03-15,UBO0218,Construction,0
+CMP0219,Asacrest Group,2017-08-09,UBO0219,Construction,0
+CMP0220,Voltatech Company Ltd,2008-02-29,UBO0002,ICT,0
+CMP0221,Dansocore Company Ltd,2016-07-17,UBO0221,Health Supplies,1
+CMP0222,Ashanprime Ltd,2013-11-16,UBO0222,Agriculture,0
+CMP0223,Voltatech Enterprise,2007-06-09,UBO0223,Transport,0
+CMP0224,Dansoroyal Consult,2014-09-07,UBO0003,Agriculture,0
+CMP0225,Yawprime Ltd,2006-04-03,UBO0225,Health Supplies,0
+CMP0226,Benunity Consult,2005-02-22,UBO0226,Health Supplies,0
+CMP0227,Aktech Ltd,2008-07-26,UBO0227,Health Supplies,0
+CMP0228,Esibuild Consult,2018-05-31,UBO0228,Construction,0
+CMP0229,Nanabuild Group,2010-10-15,UBO0229,Consultancy,0
+CMP0230,Kofifield Services,2007-04-16,UBO0230,ICT,0
+CMP0231,Tanotech Group,2012-03-04,UBO0104,Health Supplies,0
+CMP0232,Bengold Ltd,2005-07-13,UBO0232,Transport,0
+CMP0233,Esistar Enterprise,2012-07-07,UBO0233,ICT,0
+CMP0234,Dansoprime Consult,2006-08-28,UBO0234,Construction,0
+CMP0235,Kwabuild Group,2010-07-13,UBO0235,Construction,0
+CMP0236,Benunity Holdings,2015-01-23,UBO0074,Energy,0
+CMP0237,Kofibuild Ventures,2006-02-03,UBO0237,Agriculture,0
+CMP0238,Benpeak Company Ltd,2008-03-07,UBO0002,Construction,0
+CMP0239,Ashanprime Holdings,2006-07-27,UBO0239,Transport,0
+CMP0240,Esibuild Ltd,2001-05-04,UBO0240,Transport,0
+CMP0241,Asaroyal Ltd,2007-03-12,UBO0241,Transport,0
+CMP0242,Voltaunity Holdings,2010-02-09,UBO0242,Health Supplies,0
+CMP0243,Abenagold Enterprise,2001-10-18,UBO0243,Construction,0
+CMP0244,Asaroyal Consult,2005-10-22,UBO0244,Transport,0
+CMP0245,Adelink Enterprise,2003-02-26,UBO0245,Health Supplies,0
+CMP0246,Ashanwave Holdings,2009-07-05,UBO0246,Education,0
+CMP0247,Akbuild Ltd,2013-09-26,UBO0247,Agriculture,0
+CMP0248,Bencore Company Ltd,2018-05-26,UBO0248,Construction,0
+CMP0249,Adegold Enterprise,2007-05-23,UBO0249,Agriculture,0
+CMP0250,Voltaroyal Ventures,2016-05-26,UBO0250,Consultancy,0
+CMP0251,Benprime Company Ltd,2004-01-28,UBO0251,Agriculture,0
+CMP0252,Bristone Group,2007-10-29,UBO0002,ICT,0
+CMP0253,Oseistone Company Ltd,2010-09-09,UBO0253,Transport,0
+CMP0254,Amabuild Ltd,2006-07-30,UBO0162,Education,0
+CMP0255,Ashanstone Ventures,2014-05-09,UBO0255,Agriculture,0
+CMP0256,Ashanprime Services,2010-02-11,UBO0256,Transport,0
+CMP0257,Abenapeak Ltd,2004-11-21,UBO0257,Agriculture,0
+CMP0258,Dansobuild Enterprise,2009-12-30,UBO0258,Health Supplies,0
+CMP0259,Sekegold Holdings,2015-09-16,UBO0259,Construction,0
+CMP0260,Akcrest Holdings,2018-06-10,UBO0260,Health Supplies,0
+CMP0261,Benprime Holdings,2017-08-14,UBO0261,Education,0
+CMP0262,Ashanstar Consult,2003-06-13,UBO0262,Education,0
+CMP0263,Voltastar Enterprise,2011-05-08,UBO0263,Education,0
+CMP0264,Yawgold Enterprise,2001-12-26,UBO0264,ICT,0
+CMP0265,Bonabuild Company Ltd,2012-09-15,UBO0265,Agriculture,0
+CMP0266,Nanabridge Holdings,2018-11-07,UBO0266,Transport,0
+CMP0267,Voltacrest Enterprise,2000-12-30,UBO0267,Health Supplies,0
+CMP0268,Owufield Group,2012-06-21,UBO0268,Agriculture,0
+CMP0269,Adeprime Services,2017-05-14,UBO0040,Energy,1
+CMP0270,Voltaroyal Services,2016-02-04,UBO0246,Education,0
+CMP0271,Bonawave Company Ltd,2007-06-16,UBO0271,Construction,0
+CMP0272,Akprime Company Ltd,2001-12-22,UBO0272,Agriculture,0
+CMP0273,Tanoprime Enterprise,2017-07-20,UBO0006,Consultancy,0
+CMP0274,Ashanbuild Ventures,2017-07-03,UBO0274,Agriculture,0
+CMP0275,Ashanfield Ltd,2010-12-31,UBO0275,Transport,0
+CMP0276,Adepeak Holdings,2018-08-06,UBO0276,Consultancy,0
+CMP0277,Asacore Enterprise,2000-02-02,UBO0277,Health Supplies,0
+CMP0278,Tanoroyal Holdings,2011-09-18,UBO0278,Energy,0
+CMP0279,Kwaprime Ltd,2000-09-24,UBO0279,ICT,0
+CMP0280,Owupeak Holdings,2017-10-10,UBO0280,Consultancy,0
+CMP0281,Amastar Holdings,2012-12-04,UBO0281,Construction,0
+CMP0282,Ashanstone Holdings,2017-05-09,UBO0282,ICT,0
+CMP0283,Oseitech Enterprise,2010-09-09,UBO0283,Transport,0
+CMP0284,Yawcrest Group,2001-07-31,UBO0284,Health Supplies,0
+CMP0285,Benwave Ltd,2000-07-03,UBO0285,Agriculture,0
+CMP0286,Kwacore Consult,2006-05-17,UBO0286,ICT,0
+CMP0287,Adelink Holdings,2014-02-14,UBO0287,Consultancy,0
+CMP0288,Abenacore Services,2002-11-14,UBO0288,Transport,0
+CMP0289,Esistone Consult,2016-03-10,UBO0289,Health Supplies,0
+CMP0290,Asacore Company Ltd,2004-07-19,UBO0290,Agriculture,0
+CMP0291,Asaroyal Holdings,2009-06-06,UBO0291,Health Supplies,0
+CMP0292,Sekeunity Consult,2003-11-10,UBO0292,Education,0
+CMP0293,Asastone Group,2017-04-15,UBO0040,Energy,0
+CMP0294,Ashangold Ltd,2008-08-03,UBO0294,Transport,0
+CMP0295,Tanostar Ltd,2015-02-18,UBO0046,Construction,1
+CMP0296,Asacore Group,2010-10-15,UBO0296,Health Supplies,0
+CMP0297,Amaunity Ventures,2014-12-11,UBO0297,Energy,0
+CMP0298,Sekewave Holdings,2017-10-14,UBO0298,Education,0
+CMP0299,Kofiwave Services,2006-04-13,UBO0299,ICT,0
+CMP0300,Tanogold Ventures,2016-09-23,UBO0300,Construction,0
+CMP0301,Oseitech Consult,2016-09-10,UBO0301,Health Supplies,0
+CMP0302,Oseiroyal Services,2018-10-11,UBO0302,Transport,0
+CMP0303,Owufield Company Ltd,2007-02-01,UBO0303,Construction,0
+CMP0304,Benfield Consult,2016-03-01,UBO0304,ICT,0
+CMP0305,Asabridge Company Ltd,2010-09-26,UBO0305,Consultancy,0
+CMP0306,Owugold Enterprise,2001-02-08,UBO0306,Construction,0
+CMP0307,Aklink Company Ltd,2005-02-18,UBO0307,Agriculture,0
+CMP0308,Ashancore Services,2012-10-07,UBO0308,Health Supplies,0
+CMP0309,Nanaprime Company Ltd,2008-08-05,UBO0309,Transport,0
+CMP0310,Aktech Enterprise,2008-04-04,UBO0310,Agriculture,0
+CMP0311,Sekecrest Group,2014-09-21,UBO0311,Transport,0
+CMP0312,Sekeroyal Group,2002-11-05,UBO0312,Construction,0
+CMP0313,Ashancore Enterprise,2009-06-07,UBO0313,Education,0
+CMP0314,Nanabuild Holdings,2004-01-30,UBO0314,Agriculture,0
+CMP0315,Briroyal Consult,2010-03-11,UBO0315,Health Supplies,0
+CMP0316,Owufield Ventures,2004-07-28,UBO0316,Health Supplies,0
+CMP0317,Bonaprime Services,2018-05-05,UBO0317,Construction,0
+CMP0318,Asaunity Consult,2001-06-16,UBO0318,Consultancy,0
+CMP0319,Yawpeak Ltd,2017-04-10,UBO0040,Energy,0
+CMP0320,Abenabridge Holdings,2015-01-16,UBO0320,Energy,0
+CMP0321,Briwave Company Ltd,2016-04-03,UBO0321,Agriculture,0
+CMP0322,Akprime Group,2016-03-05,UBO0322,Education,0
+CMP0323,Ashanunity Ltd,2003-07-25,UBO0323,ICT,0
+CMP0324,Voltagold Consult,2017-09-08,UBO0324,ICT,0
+CMP0325,Briprime Ventures,2014-10-23,UBO0325,Energy,1
+CMP0326,Asatech Ltd,2018-04-12,UBO0326,Construction,0
+CMP0327,Benstone Services,2016-09-06,UBO0327,Transport,0
+CMP0328,Amalink Consult,2011-01-04,UBO0328,Agriculture,0
+CMP0329,Kwacrest Ltd,2016-05-25,UBO0221,Health Supplies,1
+CMP0330,Asastone Services,2002-03-24,UBO0330,Education,0
+CMP0331,Abenafield Consult,2001-12-02,UBO0331,Construction,0
+CMP0332,Yawroyal Group,2007-05-28,UBO0332,Consultancy,0
+CMP0333,Nanaprime Enterprise,2008-08-11,UBO0309,Transport,0
+CMP0334,Asabridge Ltd,2009-08-07,UBO0334,Consultancy,0
+CMP0335,Ashanunity Enterprise,2012-03-06,UBO0104,Health Supplies,0
+CMP0336,Bonawave Enterprise,2004-08-23,UBO0336,Construction,0
+CMP0337,Bonatech Enterprise,2010-09-21,UBO0337,Construction,0
+CMP0338,Adetech Ltd,2009-08-14,UBO0338,Construction,0
+CMP0339,Benbuild Company Ltd,2009-08-25,UBO0338,Construction,0
+CMP0340,Akfield Enterprise,2013-11-09,UBO0340,Construction,0
+CMP0341,Esiwave Consult,2011-07-15,UBO0341,Consultancy,0
+CMP0342,Sekecore Services,2017-04-16,UBO0342,Construction,0
+CMP0343,Bonaprime Company Ltd,2008-01-27,UBO0343,Construction,0
+CMP0344,Bribridge Consult,2017-10-05,UBO0344,Transport,0
+CMP0345,Abenalink Enterprise,2007-01-11,UBO0345,Education,0
+CMP0346,Esiwave Company Ltd,2002-06-05,UBO0346,Agriculture,0
+CMP0347,Bonaunity Ventures,2007-12-07,UBO0347,Energy,0
+CMP0348,Nanaprime Group,2002-06-12,UBO0348,Transport,0
+CMP0349,Kofiwave Group,2002-04-01,UBO0349,Energy,0
+CMP0350,Oseilink Company Ltd,2016-09-27,UBO0350,Education,0
+CMP0351,Tanofield Group,2015-01-05,UBO0325,Energy,1
+CMP0352,Kwapeak Group,2004-03-14,UBO0352,ICT,0
+CMP0353,Abenabuild Group,2015-11-30,UBO0353,Health Supplies,0
+CMP0354,Yawpeak Enterprise,2001-04-23,UBO0354,ICT,0
+CMP0355,Amastone Ltd,2005-05-27,UBO0355,Construction,0
+CMP0356,Tanocore Services,2013-05-31,UBO0356,Agriculture,0
+CMP0357,Oseifield Holdings,2005-10-09,UBO0357,Health Supplies,0
+CMP0358,Kwaprime Group,2013-11-16,UBO0358,Construction,0
+CMP0359,Sekeunity Enterprise,2016-08-11,UBO0359,Health Supplies,0
+CMP0360,Esifield Company Ltd,2001-04-03,UBO0360,Transport,0
+CMP0361,Sekeunity Holdings,2000-06-15,UBO0361,Health Supplies,0
+CMP0362,Nanacore Ventures,2017-11-09,UBO0362,Energy,0
+CMP0363,Dansobridge Company Ltd,2009-11-20,UBO0363,Transport,0
+CMP0364,Abenalink Company Ltd,2009-08-15,UBO0364,Construction,1
+CMP0365,Asabridge Holdings,2008-10-22,UBO0365,Agriculture,0
+CMP0366,Nanaprime Ventures,2015-02-03,UBO0029,Health Supplies,1
+CMP0367,Kwaunity Holdings,2013-02-09,UBO0367,Construction,0
+CMP0368,Ashanfield Consult,2011-01-05,UBO0368,Energy,0
+CMP0369,Oseiunity Group,2007-01-01,UBO0021,Transport,0
+CMP0370,Asalink Ventures,2011-11-27,UBO0370,Health Supplies,0
+CMP0371,Adelink Ventures,2012-09-11,UBO0371,Education,0
+CMP0372,Tanostone Consult,2002-02-27,UBO0372,Health Supplies,0
+CMP0373,Oseilink Services,2007-02-27,UBO0373,Education,0
+CMP0374,Abenabridge Services,2015-01-06,UBO0074,Energy,0
+CMP0375,Oseistar Group,2011-10-03,UBO0375,Education,0
+CMP0376,Akbridge Ltd,2002-08-04,UBO0376,Energy,0
+CMP0377,Abenastar Group,2000-10-05,UBO0377,Construction,0
+CMP0378,Adepeak Services,2011-01-16,UBO0378,Energy,0
+CMP0379,Nanafield Services,2008-10-08,UBO0379,Energy,0
+CMP0380,Voltatech Ventures,2015-03-06,UBO0074,Energy,0
+CMP0381,Ashancrest Company Ltd,2009-12-02,UBO0381,Construction,0
+CMP0382,Bribuild Consult,2017-09-11,UBO0382,ICT,0
+CMP0383,Akpeak Services,2004-01-27,UBO0383,ICT,0
+CMP0384,Voltabuild Services,2008-07-01,UBO0384,Construction,0
+CMP0385,Dansoprime Group,2015-03-07,UBO0029,Health Supplies,0
+CMP0386,Bonalink Enterprise,2010-11-28,UBO0386,ICT,0
+CMP0387,Bonastone Holdings,2003-07-31,UBO0387,Agriculture,0
+CMP0388,Yawbuild Services,2009-05-08,UBO0388,Health Supplies,0
+CMP0389,Esistone Holdings,2006-07-15,UBO0389,Transport,0
+CMP0390,Bonagold Group,2003-07-12,UBO0390,Education,0
+CMP0391,Kwastar Ltd,2001-11-02,UBO0391,Agriculture,0
+CMP0392,Nanaroyal Enterprise,2009-09-23,UBO0392,ICT,0
+CMP0393,Esigold Ventures,2017-12-30,UBO0393,ICT,0
+CMP0394,Kofibuild Group,2003-10-11,UBO0394,Education,0
+CMP0395,Bentech Consult,2007-09-11,UBO0395,Consultancy,0
+CMP0396,Akunity Group,2004-04-07,UBO0396,ICT,0
+CMP0397,Amapeak Services,2015-05-15,UBO0397,Education,0
+CMP0398,Kwacrest Consult,2007-11-19,UBO0246,Education,0
+CMP0399,Owuwave Company Ltd,2018-07-06,UBO0399,Agriculture,0
+CMP0400,Adebuild Services,2004-08-28,UBO0400,Construction,0
+CMP0401,Briwave Holdings,2001-07-14,UBO0096,Education,0
+CMP0402,Akfield Holdings,2011-01-25,UBO0402,ICT,0
+CMP0403,Akunity Enterprise,2012-05-18,UBO0403,Consultancy,0
+CMP0404,Voltalink Holdings,2018-10-27,UBO0404,ICT,0
+CMP0405,Amacore Holdings,2016-07-21,UBO0405,ICT,0
+CMP0406,Asalink Holdings,2016-10-18,UBO0406,Consultancy,0
+CMP0407,Kwabridge Services,2012-01-18,UBO0407,ICT,0
+CMP0408,Dansofield Ltd,2006-11-01,UBO0408,Construction,0
+CMP0409,Sekeroyal Holdings,2008-02-25,UBO0409,Construction,0
+CMP0410,Akbuild Company Ltd,2015-01-13,UBO0046,Construction,0
+CMP0411,Akbuild Services,2008-03-10,UBO0411,Construction,0
+CMP0412,Dansogold Consult,2006-12-03,UBO0412,ICT,0
+CMP0413,Yawtech Holdings,2000-09-06,UBO0413,Agriculture,0
+CMP0414,Yawstar Holdings,2003-11-19,UBO0414,Agriculture,0
+CMP0415,Akbuild Ventures,2010-02-26,UBO0415,Construction,0
+CMP0416,Dansostar Ventures,2007-01-06,UBO0096,Education,0
+CMP0417,Esibridge Services,2018-11-16,UBO0417,Construction,0
+CMP0418,Amastone Services,2009-02-02,UBO0418,Consultancy,0
+CMP0419,Dansobuild Holdings,2018-03-19,UBO0419,Construction,0
+CMP0420,Oseicore Company Ltd,2012-07-20,UBO0420,Energy,0
+CMP0421,Oseipeak Company Ltd,2000-10-07,UBO0421,Health Supplies,0
+CMP0422,Tanoroyal Ltd,2003-11-12,UBO0422,Energy,0
+CMP0423,Voltabuild Holdings,2013-05-29,UBO0423,ICT,0
+CMP0424,Kwawave Holdings,2010-05-10,UBO0424,Agriculture,0
+CMP0425,Akstone Company Ltd,2005-09-24,UBO0425,Health Supplies,0
+CMP0426,Bonastar Services,2009-12-01,UBO0426,Transport,0
+CMP0427,Asafield Services,2017-02-25,UBO0427,Education,0
+CMP0428,Bonaroyal Ltd,2007-05-21,UBO0428,Agriculture,0
+CMP0429,Bonabridge Holdings,2000-11-09,UBO0429,Transport,0
+CMP0430,Owuwave Consult,2005-11-27,UBO0430,Consultancy,0
+CMP0431,Brilink Ventures,2017-10-12,UBO0431,Health Supplies,0
+CMP0432,Kwabridge Holdings,2014-06-21,UBO0432,Health Supplies,1
+CMP0433,Tanocore Company Ltd,2015-11-29,UBO0433,Health Supplies,0
+CMP0434,Voltaprime Consult,2015-03-29,UBO0029,Health Supplies,0
+CMP0435,Tanocore Ltd,2002-03-26,UBO0435,Education,0
+CMP0436,Kwagold Services,2005-05-15,UBO0436,Consultancy,0
+CMP0437,Owuroyal Services,2001-02-19,UBO0437,Consultancy,0
+CMP0438,Sekestar Ventures,2000-02-02,UBO0438,Education,0
+CMP0439,Britech Services,2015-11-10,UBO0439,Energy,0
+CMP0440,Tanopeak Group,2017-10-19,UBO0440,Transport,0
+CMP0441,Adetech Ventures,2002-12-16,UBO0441,Consultancy,0
+CMP0442,Sekecore Group,2013-09-20,UBO0442,Construction,0
+CMP0443,Amacrest Holdings,2010-02-28,UBO0443,Education,0
+CMP0444,Sekebridge Company Ltd,2001-04-25,UBO0444,Transport,0
+CMP0445,Bonagold Company Ltd,2017-05-25,UBO0445,Health Supplies,0
+CMP0446,Asapeak Enterprise,2016-07-20,UBO0446,ICT,0
+CMP0447,Abenacrest Company Ltd,2010-10-12,UBO0447,Consultancy,0
+CMP0448,Voltawave Enterprise,2013-06-13,UBO0448,Consultancy,0
+CMP0449,Benbuild Group,2007-07-19,UBO0449,Transport,0
+CMP0450,Kofiroyal Group,2015-01-23,UBO0450,Agriculture,0
+CMP0451,Voltalink Ltd,2008-06-14,UBO0451,Health Supplies,0
+CMP0452,Voltastone Group,2018-10-16,UBO0452,Health Supplies,0
+CMP0453,Tanoprime Company Ltd,2001-03-13,UBO0246,Education,0
+CMP0454,Aderoyal Group,2003-04-09,UBO0454,Education,0
+CMP0455,Abenafield Ventures,2018-05-28,UBO0455,Education,0
+CMP0456,Owuprime Consult,2005-06-26,UBO0456,Energy,0
+CMP0457,Aklink Ventures,2005-11-25,UBO0457,ICT,0
+CMP0458,Ashanbuild Company Ltd,2015-01-12,UBO0458,Agriculture,0
+CMP0459,Amatech Consult,2003-08-06,UBO0459,Health Supplies,0
+CMP0460,Asacrest Ventures,2009-10-03,UBO0460,Health Supplies,0
+CMP0461,Esilink Company Ltd,2005-06-07,UBO0461,Construction,0
+CMP0462,Adeprime Consult,2003-10-05,UBO0462,Construction,0
+CMP0463,Voltaunity Group,2018-04-27,UBO0463,Transport,0
+CMP0464,Abenaprime Group,2003-10-19,UBO0464,ICT,0
+CMP0465,Amastone Holdings,2001-10-16,UBO0465,Health Supplies,0
+CMP0466,Ashanbuild Group,2012-10-20,UBO0006,Agriculture,0
+CMP0467,Kwafield Holdings,2016-06-23,UBO0096,Education,0
+CMP0468,Benstar Holdings,2002-06-03,UBO0468,Construction,0
+CMP0469,Dansostone Services,2013-06-12,UBO0469,Health Supplies,0
+CMP0470,Asaunity Group,2010-04-10,UBO0470,Construction,0
+CMP0471,Voltawave Ventures,2015-10-08,UBO0471,Energy,0
+CMP0472,Nanawave Company Ltd,2002-05-30,UBO0472,Health Supplies,0
+CMP0473,Yawfield Ventures,2018-07-16,UBO0473,Construction,0
+CMP0474,Akcrest Consult,2011-10-06,UBO0474,Construction,0
+CMP0475,Voltatech Group,2015-12-31,UBO0475,Education,0
+CMP0476,Kwafield Enterprise,2006-11-16,UBO0476,Construction,0
+CMP0477,Oseibuild Company Ltd,2017-12-03,UBO0477,Transport,0
+CMP0478,Brilink Holdings,2011-11-25,UBO0478,Construction,0
+CMP0479,Dansostar Enterprise,2002-05-30,UBO0479,Education,0
+CMP0480,Kwacore Enterprise,2017-07-14,UBO0480,ICT,0
+CMP0481,Ashanstone Enterprise,2015-02-12,UBO0481,ICT,0
+CMP0482,Kwafield Group,2005-09-14,UBO0482,Construction,0
+CMP0483,Oseibridge Consult,2010-05-14,UBO0483,Agriculture,0
+CMP0484,Sekebridge Ventures,2007-05-16,UBO0484,Transport,0
+CMP0485,Oseibridge Group,2010-04-29,UBO0485,Construction,0
+CMP0486,Asatech Services,2018-05-04,UBO0486,Construction,0
+CMP0487,Dansotech Ventures,2017-01-28,UBO0487,Transport,0
+CMP0488,Esiroyal Enterprise,2006-11-30,UBO0021,Education,0
+CMP0489,Esibridge Ventures,2018-06-18,UBO0489,Construction,0
+CMP0490,Adewave Ltd,2008-04-26,UBO0490,Construction,0
+CMP0491,Voltagold Enterprise,2014-11-09,UBO0325,Energy,1
+CMP0492,Koficore Ltd,2014-07-08,UBO0492,Agriculture,0
+CMP0493,Yawunity Enterprise,2009-03-05,UBO0493,Education,0
+CMP0494,Kofiprime Ltd,2008-09-03,UBO0494,Consultancy,0
+CMP0495,Sekecrest Company Ltd,2008-09-01,UBO0495,ICT,0
+CMP0496,Asalink Enterprise,2016-05-21,UBO0496,Health Supplies,0
+CMP0497,Owustone Group,2006-12-12,UBO0021,ICT,0
+CMP0498,Kwaunity Services,2005-04-26,UBO0498,Health Supplies,0
+CMP0499,Bonacrest Ltd,2006-11-14,UBO0499,Health Supplies,0
+CMP0500,Akbridge Consult,2003-09-14,UBO0500,Construction,0

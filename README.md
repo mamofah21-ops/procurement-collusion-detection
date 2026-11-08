@@ -35,7 +35,7 @@ The first version of the generator had a flaw: every cartel had three or more me
 
 ## Project stages
 
-- [ ] 1. Graph construction and exploration
+- [x] 1. Graph construction and exploration ([notebook](notebooks/01_graph_construction.ipynb))
 - [ ] 2. Co-bidding network and bid similarity
 - [ ] 3. Red-flag feature engineering
 - [ ] 4. Community detection
