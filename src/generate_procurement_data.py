@@ -20,8 +20,19 @@ Planted collusion pattern (per cartel):
 
 Realism / noise so the problem is not trivial:
     * risk_flag marks only part of each cartel, plus a few innocent firms (label noise)
-    * some legitimate owners hold two firms that never collude (shared UBO != fraud)
+    * legitimate owners hold 2 to 5 firms that never collude (shared UBO != fraud)
+    * group sizes overlap: cartels range from 2 to 6 members, so the number of
+      firms under one owner cannot separate cartels from honest groups
+    * half of the honest groups stay in one sector and half registered their firms
+      within months of each other, so sector and registration timing are not
+      clean separators either
     * cartel members also bid normally on ordinary contracts
+
+v2 (Nov 2026): v1 used cartels of 3 to 6 and honest owners with exactly two firms,
+which let owner group size separate the classes perfectly. Fixed by overlapping sizes.
+v3 (Nov 2026): cross-sector bidding was meant to be 10% but rounding made it almost
+zero, leaving whole sectors disconnected. Each bidder is now drawn cross-sector
+independently, and validation checks the network is connected.
 """
 
 from __future__ import annotations
@@ -38,12 +49,13 @@ SEED = 42
 N_COMPANIES = 500
 N_BIDS = 5000
 
-N_CARTELS = 6
-CARTEL_SIZE_RANGE = (3, 6)          # members per cartel (inclusive)
+CARTEL_SIZES = [2, 3, 3, 4, 5, 6]   # members per cartel (one entry per cartel)
+N_CARTELS = len(CARTEL_SIZES)
 CONTRACTS_PER_CARTEL = (10, 18)     # rigged contracts per cartel (inclusive)
+CROSS_SECTOR_RATE = 0.10           # chance a normal bidder comes from another sector
 LABEL_RATE_IN_CARTELS = 0.5         # share of cartel members already known (risk_flag = 1)
 N_FLAGGED_OUTSIDERS = 3             # innocent firms wrongly flagged (label noise)
-N_LEGIT_SHARED_OWNERS = 12          # honest owners with two firms each
+LEGIT_GROUP_SIZES = [2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6]   # firms per honest multi-firm owner
 
 TENDER_START = pd.Timestamp("2019-01-01")
 TENDER_END = pd.Timestamp("2024-12-31")
@@ -130,7 +142,7 @@ def plant_cartels(companies: pd.DataFrame) -> dict[str, list[str]]:
 
     for k, sector in enumerate(cartel_sectors, start=1):
         cartel_id = f"CARTEL_{k:02d}"
-        size = int(rng.integers(CARTEL_SIZE_RANGE[0], CARTEL_SIZE_RANGE[1] + 1))
+        size = CARTEL_SIZES[k - 1]
         pool = companies.loc[(companies["sector"] == sector)
                              & (~companies["company_id"].isin(used)), "company_id"].to_numpy()
         members = list(rng.choice(pool, size=size, replace=False))
@@ -155,15 +167,30 @@ def plant_cartels(companies: pd.DataFrame) -> dict[str, list[str]]:
 
 
 def add_noise(companies: pd.DataFrame) -> None:
-    """Honest multi-firm owners and a few wrongly flagged firms."""
-    honest = companies.loc[companies["cartel_id"].isna(), "company_id"].to_numpy()
-    picks = rng.choice(honest, size=2 * N_LEGIT_SHARED_OWNERS, replace=False)
-    for a, b in picks.reshape(-1, 2):
-        owner = companies.loc[companies["company_id"] == a, "ultimate_beneficial_owner_id"].iloc[0]
-        companies.loc[companies["company_id"] == b, "ultimate_beneficial_owner_id"] = owner
+    """Honest multi-firm owners (overlapping cartel sizes) and a few wrongly flagged firms."""
+    available = set(companies.loc[companies["cartel_id"].isna(), "company_id"])
 
-    remaining = np.setdiff1d(honest, picks)
-    false_flags = rng.choice(remaining, size=N_FLAGGED_OUTSIDERS, replace=False)
+    for size in LEGIT_GROUP_SIZES:
+        pool = np.array(sorted(available))
+        if rng.random() < 0.5:   # half of honest groups operate within one sector
+            sector = rng.choice(SECTORS, p=SECTOR_WEIGHTS)
+            in_sector = companies.loc[companies["company_id"].isin(available)
+                                      & (companies["sector"] == sector), "company_id"].to_numpy()
+            if len(in_sector) >= size:
+                pool = np.sort(in_sector)
+        group = rng.choice(pool, size=size, replace=False)
+        available -= set(group)
+
+        idx = companies["company_id"].isin(group)
+        owner = companies.loc[idx, "ultimate_beneficial_owner_id"].iloc[0]
+        companies.loc[idx, "ultimate_beneficial_owner_id"] = owner
+
+        if rng.random() < 0.5:   # half registered their firms close together
+            base = random_dates(pd.Timestamp("2005-01-01"), pd.Timestamp("2017-12-31"), 1)[0]
+            companies.loc[idx, "registration_date"] = base + pd.to_timedelta(
+                rng.integers(0, 180, size), unit="D")
+
+    false_flags = rng.choice(np.array(sorted(available)), size=N_FLAGGED_OUTSIDERS, replace=False)
     companies.loc[companies["company_id"].isin(false_flags), "risk_flag"] = 1
 
 
@@ -232,8 +259,9 @@ def normal_bids(companies: pd.DataFrame, n_bids_needed: int, start_idx: int) -> 
                           "sector": sector, "is_rigged": 0, "cartel_id": pd.NA})
 
         same_sector = companies.loc[companies["sector"] == sector, "company_id"].to_numpy()
-        # 90% of bidders from the contract's sector, the rest from anywhere
-        n_same = min(len(same_sector), int(np.ceil(n_bidders * 0.9)))
+        # each bidder independently comes from outside the sector with probability 10%
+        n_cross = int(rng.binomial(n_bidders, CROSS_SECTOR_RATE))
+        n_same = min(len(same_sector), n_bidders - n_cross)
         chosen = list(rng.choice(same_sector, size=n_same, replace=False))
         others = companies.loc[~companies["company_id"].isin(chosen), "company_id"].to_numpy()
         chosen += list(rng.choice(others, size=n_bidders - n_same, replace=False))
@@ -286,6 +314,16 @@ def validate(companies: pd.DataFrame, bids: pd.DataFrame, gt_contracts: pd.DataF
     assert (bids.groupby("contract_id")["winning_status"].sum() == 1).all(), "need one winner per contract"
     assert (bids["bid_amount"] > 0).all()
 
+    import networkx as nx  # only needed for this check
+    g = nx.Graph()
+    g.add_edges_from(zip(bids["company_id"], bids["contract_id"]))
+    g.add_edges_from(zip(companies["company_id"], companies["ultimate_beneficial_owner_id"]))
+    n_comp = nx.number_connected_components(g)
+    assert n_comp == 1, f"network should be connected, found {n_comp} components"
+    cross = bids.merge(companies[["company_id", "sector"]], on="company_id") \
+                .merge(gt_contracts[["contract_id", "sector"]], on="contract_id", suffixes=("", "_contract"))
+    print(f"  cross-sector bids: {(cross['sector'] != cross['sector_contract']).mean():.1%}")
+
     rigged = set(gt_contracts.loc[gt_contracts["is_rigged"] == 1, "contract_id"])
     cv = bids.groupby("contract_id")["bid_amount"].agg(lambda s: s.std() / s.mean() if len(s) > 1 else np.nan)
     print("\nValidation passed.")
@@ -294,6 +332,19 @@ def validate(companies: pd.DataFrame, bids: pd.DataFrame, gt_contracts: pd.DataF
     print(f"  risk_flag = 1: {companies['risk_flag'].sum()} of {len(companies)}")
     print(f"  median bid CV, rigged contracts: {cv[cv.index.isin(rigged)].median():.4f}")
     print(f"  median bid CV, normal contracts: {cv[~cv.index.isin(rigged)].median():.4f}")
+
+
+def check_owner_overlap(companies: pd.DataFrame) -> None:
+    """Owner group size must not separate cartels from honest groups."""
+    groups = companies.groupby("ultimate_beneficial_owner_id").agg(
+        size=("company_id", "count"), is_cartel=("cartel_id", lambda s: s.notna().any()))
+    groups = groups[groups["size"] > 1]
+    table = pd.crosstab(groups["size"], groups["is_cartel"].map({True: "cartel", False: "honest"}))
+    print("\nMulti-firm owners by group size:")
+    print(table.to_string())
+    cartel_sizes = set(groups.loc[groups["is_cartel"], "size"])
+    honest_sizes = set(groups.loc[~groups["is_cartel"], "size"])
+    assert len(cartel_sizes & honest_sizes) >= 3, "owner group sizes should overlap"
 
 
 # ---------------------------------------------------------------------------
@@ -305,6 +356,7 @@ def main() -> None:
     add_noise(companies)
     bids, gt_contracts = assemble(companies, cartels)
     validate(companies, bids, gt_contracts)
+    check_owner_overlap(companies)
 
     os.makedirs(OUT_DIR, exist_ok=True)
     gt_companies = companies[["company_id", "ultimate_beneficial_owner_id", "cartel_id", "risk_flag"]]
