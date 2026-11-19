@@ -31,12 +31,14 @@ To keep the task honest, it also includes:
 
 ### A note on the data design
 
-The first version of the generator had a flaw: every cartel had three or more members and every honest owner had exactly two firms, so the number of firms under one owner separated the two groups perfectly. Any model would have looked brilliant for the wrong reason. Version 2 overlaps the group sizes so the bidding behaviour has to do the real work.
+The first version of the generator had a flaw: every cartel had three or more members and every honest owner had exactly two firms, so the number of firms under one owner separated the two groups perfectly. Any model would have looked brilliant for the wrong reason. Version 2 overlaps the group sizes so the bidding behaviour has to do the real work. Version 3 fixed a rounding issue that had left whole sectors with no cross-sector bidding, which split the network into disconnected pieces; the generator now checks that the network is connected.
 
 ## Project stages
 
-- [x] 1. Graph construction and exploration ([notebook](notebooks/01_graph_construction.ipynb))
-- [ ] 2. Co-bidding network and bid similarity
+Full analysis: [notebooks/procurement_collusion_detection.ipynb](notebooks/procurement_collusion_detection.ipynb)
+
+- [x] 1. Graph construction and exploration
+- [x] 2. Co-bidding network and bid similarity
 - [ ] 3. Red-flag feature engineering
 - [ ] 4. Community detection
 - [ ] 5. Anomaly scoring
@@ -47,7 +49,7 @@ The first version of the generator had a flaw: every cartel had three or more me
 
 ```
 ├── data/        synthetic datasets
-├── notebooks/   analysis notebooks, one per stage
+├── notebooks/   the analysis notebook, one part per stage
 ├── src/         data generator and reusable code
 └── README.md
 ```
